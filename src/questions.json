@@ -1,0 +1,26 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is the capital of France?",
+            "options": [
+                "Paris",
+                "London",
+                "Berlin",
+                "Madrid"
+            ],
+            "correctAnswer": "Paris"
+        },
+        {
+            "id": 2,
+            "question": "Who wrote Romeo and Juliet?",
+            "options": [
+                "William Shakespeare",
+                "Charles Dickens",
+                "Jane Austen",
+                "Mark Twain"
+            ],
+            "correctAnswer": "William Shakespeare"
+        }
+    ]
+}

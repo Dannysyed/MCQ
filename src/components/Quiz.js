@@ -1,6 +1,5 @@
 // src/components/Quiz.js
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import Question from './Question';
 import QuizResult from './QuizResult';
 
@@ -10,13 +9,22 @@ const Quiz = ({ questions }) => {
     const [score, setScore] = useState(0);
     const [isFinished, setIsFinished] = useState(false);
     const [timeLeft, setTimeLeft] = useState(300); // 5 minutes
-
+    const finishQuiz = () => {
+        let newScore = 0;
+        answers.forEach((selectedAnswer, index) => {
+            if (selectedAnswer === questions[index].answer) {
+                newScore += 1;
+            }
+        });
+        setScore(newScore);
+        setIsFinished(true);
+    };
     useEffect(() => {
         const timer = setTimeout(() => {
             if (timeLeft > 0) {
                 setTimeLeft((prevTime) => prevTime - 1);
             } else {
-                finishQuiz();
+                // finishQuiz();
             }
         }, 1000);
 
@@ -37,16 +45,7 @@ const Quiz = ({ questions }) => {
         }
     };
 
-    const finishQuiz = () => {
-        let newScore = 0;
-        answers.forEach((selectedAnswer, index) => {
-            if (selectedAnswer === questions[index].answer) {
-                newScore += 1;
-            }
-        });
-        setScore(newScore);
-        setIsFinished(true);
-    };
+
 
     if (isFinished) {
         return <QuizResult score={score} timeLeft={timeLeft} totalQuestions={questions.length} correctAnswers={score} />;

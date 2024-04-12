@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import Question from './Question';
 import QuizResult from './QuizResult';
 
@@ -21,7 +20,7 @@ const Quiz = ({ questions }) => {
             if (timeLeft > 0) {
                 setTimeLeft((prevTime) => prevTime - 1);
             } else {
-                finishQuiz();
+                // finishQuiz();
             }
         }, 1000);
 

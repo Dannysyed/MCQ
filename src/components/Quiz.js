@@ -1,35 +1,37 @@
-// src/components/Quiz.js
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import Question from './Question';
 import QuizResult from './QuizResult';
 
 const Quiz = ({ questions }) => {
-    const [currentQuestion, setCurrentQuestion] = useState(0);
-    const [answers, setAnswers] = useState(new Array(questions.length).fill(''));
+    const [currentQuestion, setCurrentQuestion] = useState(() => {
+        const savedQuestionIndex = localStorage.getItem('currentQuestion');
+        return savedQuestionIndex ? parseInt(savedQuestionIndex, 10) : 0;
+    });
+    const [answers, setAnswers] = useState(() => {
+        const savedAnswers = localStorage.getItem('answers');
+        return savedAnswers ? JSON.parse(savedAnswers) : new Array(questions.length).fill('');
+    });
     const [score, setScore] = useState(0);
     const [isFinished, setIsFinished] = useState(false);
     const [timeLeft, setTimeLeft] = useState(300); // 5 minutes
-    const finishQuiz = () => {
-        let newScore = 0;
-        answers.forEach((selectedAnswer, index) => {
-            if (selectedAnswer === questions[index].answer) {
-                newScore += 1;
-            }
-        });
-        setScore(newScore);
-        setIsFinished(true);
-    };
+
     useEffect(() => {
         const timer = setTimeout(() => {
             if (timeLeft > 0) {
                 setTimeLeft((prevTime) => prevTime - 1);
             } else {
-                // finishQuiz();
+                finishQuiz();
             }
         }, 1000);
 
         return () => clearTimeout(timer);
     }, [timeLeft]);
+
+    useEffect(() => {
+        localStorage.setItem('currentQuestion', currentQuestion.toString());
+        localStorage.setItem('answers', JSON.stringify(answers));
+    }, [currentQuestion, answers]);
 
     const handleSelect = (index, option) => {
         const newAnswers = [...answers];
@@ -45,7 +47,16 @@ const Quiz = ({ questions }) => {
         }
     };
 
-
+    const finishQuiz = () => {
+        let newScore = 0;
+        answers.forEach((selectedAnswer, index) => {
+            if (selectedAnswer === questions[index].answer) {
+                newScore += 1;
+            }
+        });
+        setScore(newScore);
+        setIsFinished(true);
+    };
 
     if (isFinished) {
         return <QuizResult score={score} timeLeft={timeLeft} totalQuestions={questions.length} correctAnswers={score} />;

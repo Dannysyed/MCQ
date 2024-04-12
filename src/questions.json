@@ -1,42 +1,596 @@
 [
     {
-        "text": "What is the capital of France?",
+        "text": "Which part of the MEAN stack creates the server?",
         "options": [
-            "Paris",
-            "London",
-            "Berlin",
-            "Madrid"
+            "Node.js",
+            "Angular",
+            "MongoDB",
+            "Express"
         ],
-        "answer": "Paris"
+        "answer": "Node.js"
     },
     {
-        "text": "Which planet is known as the Red Planet?",
+        "text": "Which of the following creates a first_name with type String in a Mongoose schema?",
         "options": [
-            "Mars",
-            "Venus",
-            "Jupiter",
-            "Mercury"
+            "First_name:string",
+            "String:first_name",
+            "String:first_name",
+            "first_name:String"
         ],
-        "answer": "Mars"
+        "answer": "First_name:string"
     },
     {
-        "text": "Who wrote the play 'Romeo and Juliet'?",
+        "text": "Collection contain documents",
         "options": [
-            "William Shakespeare",
-            "Jane Austen",
-            "Charles Dickens",
-            "Mark Twain"
+            "True",
+            "False"
         ],
-        "answer": "William Shakespeare"
+        "answer": "True"
     },
     {
-        "text": "What is the largest mammal in the world?",
+        "text": "Which Mongoose helper makes sure that a field isn't empty before it is saved in document?",
         "options": [
-            "Elephant",
-            "Blue whale",
-            "Giraffe",
-            "Hippopotamus"
+            "Required:true",
+            "Validate:true",
+            "Ensure:true",
+            "Empty:false"
         ],
-        "answer": "Blue whale"
+        "answer": "Required:true"
+    },
+    {
+        "text": "What is each entry in a MongoDB database called?",
+        "options": [
+            "Collection",
+            "Document",
+            "Field",
+            "Record"
+        ],
+        "answer": "Collection"
+    },
+    {
+        "text": "Which of the following is a parameter of a Request callback function?",
+        "options": [
+            "req",
+            "res",
+            "next",
+            "All answers are correct"
+        ],
+        "answer": "All answers are correct"
+    },
+    {
+        "text": "What is routing?",
+        "options": [
+            "Mapping requests to specific handlers depending on their URL",
+            "Sending requests to external APIs",
+            "Handling errors in middleware",
+            "Creating routes for different HTTP methods"
+        ],
+        "answer": "Mapping requests to specific handlers depending on their URL"
+    },
+    {
+        "text": "Which of these will let you create a connection to a MongoDB database with a URL variable dbURI?",
+        "options": [
+            "mongoose.connect(dbURI);",
+            "mongo.createConnection(dbURI);",
+            "mongo.connect(dbURI);",
+            "mongoose.createConnection(dbURI);"
+        ],
+        "answer": "mongoose.connect(dbURI);"
+    },
+    {
+        "text": "Node.js is most popular framework for?",
+        "options": [
+            "Client side",
+            "Server side",
+            "Both client and server side",
+            "None of the above"
+        ],
+        "answer": "Server side"
+    },
+    {
+        "text": "When does a Request callback function run?",
+        "options": [
+            "When a request is made",
+            "When a response is received",
+            "When a request is processed",
+            "When a response is sent"
+        ],
+        "answer": "When a response is received"
+    },
+    {
+        "text": "Which of the following are benefits of using Node.js?",
+        "options": [
+            "Non-blocking I/O",
+            "Scalability",
+            "Efficiency",
+            "All answers are correct"
+        ],
+        "answer": "All answers are correct"
+    },
+    {
+        "text": "Can we only have one middleware function?",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "text": "Automatically detecting code changes can be achieved using.",
+        "options": [
+            "Node",
+            "NPM",
+            "Nodemon",
+            "Express"
+        ],
+        "answer": "Nodemon"
+    },
+    {
+        "text": "Which of the following roles does Express perform?",
+        "options": [
+            "Routing",
+            "Middleware handling",
+            "Request handling",
+            "All answers are correct"
+        ],
+        "answer": "All answers are correct"
+    },
+    {
+        "text": "Node requires you to use Apache.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "text": "Which service can we download to automatically restart our node app when we make changes?",
+        "options": [
+            "Apache",
+            "Nodemon",
+            "Node Monitor",
+            "Express Monitor"
+        ],
+        "answer": "Nodemon"
+    },
+    {
+        "text": "You must create your own ID for the document before saving it to MongoDB.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "text": "Documents contain collections.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "text": "Which file contains the code that works with middleware?",
+        "options": [
+            "app.js",
+            "server.js",
+            "middleware.js",
+            "index.js"
+        ],
+        "answer": "index.js"
+    },
+    {
+        "text": "Usually the characters in the password field are masked using which input type?",
+        "options": [
+            "Text",
+            "Password",
+            "Hidden",
+            "Masked"
+        ],
+        "answer": "Password"
+    },
+    {
+        "text": "You need to flush the error messages from the session with every new request cycle.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "True"
+    },
+    {
+        "text": "To make error handling easier we can use mongoose-unique-validator package with which model?",
+        "options": [
+            "Controller",
+            "Model",
+            "View",
+            "Router"
+        ],
+        "answer": "Model"
+    },
+    {
+        "text": "In the flushing technique, we need to _____ error data.",
+        "options": [
+            "Flatten",
+            "Empty",
+            "Remove",
+            "Flush"
+        ],
+        "answer": "Flush"
+    },
+    {
+        "text": "To identify a user, the server stores the information of the user.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "True"
+    },
+    {
+        "text": "To link two collections you use: schema.find.populate.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "True"
+    },
+    {
+        "text": "A web server can listen only on port 4000 (i.e., localhost:4000).",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "text": "Connection to MongoDB from anywhere can be configured using the following IP address:",
+        "options": [
+            "127.0.0.1",
+            "localhost",
+            "0.0.0.0",
+            "192.168.1.1"
+        ],
+        "answer": "0.0.0.0"
+    },
+    {
+        "text": "Models are defined using which of the following?",
+        "options": [
+            "Schema",
+            "Model",
+            "Class",
+            "Object"
+        ],
+        "answer": "Schema"
+    },
+    {
+        "text": "We can stop a running Node process by pressing Ctrl+C.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "True"
+    },
+    {
+        "text": "What command do we use to find a record by ID and delete it?",
+        "options": [
+            "findByIdAndRemove",
+            "deleteById",
+            "findAndDelete",
+            "FindByIdAndDelete"
+        ],
+        "answer": "FindByIdAndDelete"
+    },
+    {
+        "text": "Which of these is most similar to an SQL table?",
+        "options": [
+            "Collection",
+            "Document",
+            "Field",
+            "Record"
+        ],
+        "answer": "Collection"
+    },
+    {
+        "text": "Which of the following is the Mongoose method to delete a document?",
+        "options": [
+            "DeleteOne",
+            "Delete",
+            "Remove",
+            "DeleteDocument"
+        ],
+        "answer": "Delete"
+    },
+    {
+        "text": "To encrypt a password before storing it, we can use which package?",
+        "options": [
+            "Encryption",
+            "Encryptor",
+            "Bcrypt",
+            "PasswordHash"
+        ],
+        "answer": "Bcrypt"
+    },
+    {
+        "text": "Client-side validation is all you need to protect your database.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "True"
+    },
+    {
+        "text": "The content type 'multipart/form-data' is used for the browser to know that the form contains which data?",
+        "options": [
+            "Text",
+            "Binary",
+            "Multimedia",
+            "JSON"
+        ],
+        "answer": "Multimedia"
+    },
+    {
+        "text": "The file package-lock.json is used to:",
+        "options": [
+            "Keep track of versions of all dependencies",
+            "Store configuration settings",
+            "Store environment variables",
+            "Define the structure of the project"
+        ],
+        "answer": "Keep track of versions of all dependencies"
+    },
+    {
+        "text": "Which of the following HTTP status codes represents Not Found?",
+        "options": [
+            "200",
+            "404",
+            "500",
+            "302"
+        ],
+        "answer": "404"
+    },
+    {
+        "text": "What type of database is MongoDB?",
+        "options": [
+            "Relational",
+            "NoSQL",
+            "Graph",
+            "Key-Value"
+        ],
+        "answer": "NoSQL"
+    },
+    {
+        "text": "Node.js supports asynchronous code with which feature?",
+        "options": [
+            "Callbacks",
+            "Promises",
+            "Async/await",
+            "All of the above"
+        ],
+        "answer": "All of the above"
+    },
+    {
+        "text": "What function do we use to register middleware to an Express app?",
+        "options": [
+            "app.middleware()",
+            "app.useMiddleware()",
+            "app.registerMiddleware()",
+            "app.use()"
+        ],
+        "answer": "app.use()"
+    },
+    {
+        "text": "Which Node.js function is used to reference code in an external file?",
+        "options": [
+            "import",
+            "require",
+            "include",
+            "use"
+        ],
+        "answer": "require('/yourModule')"
+    },
+    {
+        "text": "Which property of the image property do we use to move a file from one place to another?",
+        "options": [
+            "Image.copy()",
+            "Image.move()",
+            "Image.transfer()",
+            "Image.mv"
+        ],
+        "answer": "Image.mv"
+    },
+    {
+        "text": "To add the files property to the req object, we can use:",
+        "options": [
+            "-express-fileupload",
+            "express-files",
+            "express-upload",
+            "express-file"
+        ],
+        "answer": "-express-fileupload"
+    },
+    {
+        "text": "Which of the following roles does Mongoose perform?",
+        "options": [
+            "Data modeling",
+            "Validation",
+            "Query building",
+            "All answers are correct"
+        ],
+        "answer": "All answers are correct"
+    },
+    {
+        "text": "Which part of the MEAN stack includes NPM?",
+        "options": [
+            "Node.js",
+            "Angular",
+            "MongoDB",
+            "Express"
+        ],
+        "answer": "Node.js"
+    },
+    {
+        "text": "The Exec command in Mongoose will run a query for a MongoDB database.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "True"
+    },
+    {
+        "text": "Node server can only run on port 3000.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "text": "A 404 error occurs when there is an unsuccessful GET request.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "True"
+    },
+    {
+        "text": "app.get((req, res) => res.sendFile(path.resolve(__dirname, 'pages/index.html'))); This code serves index.html page when request made to '/'.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "True"
+    },
+    {
+        "text": "All the keys in the errors object can be iterated over with the following.",
+        "options": [
+            "Object.keys(error.errors)",
+            "Object.values(error.errors)",
+            "Object.entries(error.errors)",
+            "Object.forEach(error.errors)"
+        ],
+        "answer": "Object.keys(error.errors)"
+    },
+    {
+        "text": "app.use(expressSession({ secret: 'Full-Stack Programming' })); Session ID is signed and encrypted using a secret key.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "True"
+    },
+    {
+        "text": "In your app, you have two data models: Place and Image. If you want to link Image to Place model, you can modify Place Model and use the following key to link two collections.",
+        "options": [
+            "ImageID",
+            "PlaceID",
+            "ref: 'Image'",
+            "ref: 'Place'"
+        ],
+        "answer": "ref: 'Image'"
+    },
+    {
+        "text": "To apply middleware to the request, you can use the following code.",
+        "options": [
+            "app.use('*', (req, res, next) => { })",
+            "app.use('/', (req, res, next) => { })",
+            "app.use('/middleware', (req, res, next) => { })",
+            "app.use('/request', (req, res, next) => { })"
+        ],
+        "answer": "app.use('*', (req, res, next) => { })"
+    },
+    {
+        "text": "In the data model, if you use 'type: mongoose.Schema.Types.ObjectId', what does this mean?",
+        "options": [
+            "This is a valid Mongo ObjectID",
+            "This is a reference to another collection",
+            "This is an invalid data type",
+            "This is a string"
+        ],
+        "answer": "This is a valid Mongo ObjectID"
+    },
+    {
+        "text": "BlogPost.find(0).populate('userid') Return user data embedded in blogpost data for a specific userID.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "True"
+    },
+    {
+        "text": "Every time a user makes a request, some information about the user is sent to the server.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "True"
+    },
+    {
+        "text": "Logged-in user's information is stored in the browser.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "True"
+    },
+    {
+        "text": "connect-flash is used to store the messages on the server.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "True"
+    },
+    {
+        "text": "You need to flush the error messages from the session with every new request cycle.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "True"
+    },
+    {
+        "text": "You must create your own ID for the document before saving it to MongoDB.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "text": "Connect-flash is used to store the messages on the server.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "text": "How do you link a model using its' object ID in Mongoose?",
+        "options": [
+            "Ref:bar",
+            "Ref:baz",
+            "Ref:foo",
+            "Ref:qux"
+        ],
+        "answer": "Ref:bar"
+    },
+    {
+        "text": "We keep our users logged in using these:",
+        "options": [
+            "Cookies and session",
+            "Session only",
+            "Cookies only",
+            "None of the above"
+        ],
+        "answer": "Cookies and session"
+    },
+    {
+        "text": "All the keys in the errors object can be iterated over with the following.",
+        "options": [
+            "Object.keys(error.errors)",
+            "Object.values(error.errors)",
+            "Object.entries(error.errors)",
+            "Object.forEach(error.errors)"
+        ],
+        "answer": "Object.keys(error.errors)"
     }
 ]

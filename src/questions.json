@@ -176,13 +176,403 @@
         "answer": "Showing the data from Firebase to the user"
     },
     {
-        "text": "Which part of the MEAN stack creates the server?",
+        "text": "What does the 'var' keyword do in Kotlin?",
         "options": [
-            "Node.js",
-            "Angular",
-            "MongoDB",
-            "Express"
+            "Creates a null safe variable",
+            "Creates a variable that can be reassigned",
+            "The var keyword does not exist in Kotlin",
+            "Creates an immutable variable that cannot be reassigned"
         ],
-        "answer": "Node.js"
+        "answer": "Creates a variable that can be reassigned"
+    },
+    {
+        "text": "What will the following loop do:\nfor (x in 0..100)\nLog.i('test', x)}",
+        "options": [
+            "Crash the application",
+            "Print the word 'Test' 101 times",
+            "Print all numbers from 0 to 100",
+            "Print all numbers from 1 to 99"
+        ],
+        "answer": "Print all numbers from 0 to 100"
+    },
+    {
+        "text": "What would the value of myString be after the following code runs:\nval myInt = 4;\nval myString = if (myInt > 4) 'Hello' else 'Goodbye'",
+        "options": [
+            "This code is incorrect and will not work",
+            "Hello",
+            "Goodbye",
+            "4"
+        ],
+        "answer": "Goodbye"
+    },
+    {
+        "text": "What does the '?' operator do in Kotlin?\nFor example: myTextView?.text = 'Hello'",
+        "options": [
+            "Adds the object to a database automatically",
+            "Encapsulates the object",
+            "Only invokes the method if the object is not null",
+            "Sets the value of a widget to be null"
+        ],
+        "answer": "Only invokes the method if the object is not null"
+    },
+    {
+        "text": "What is a common use case for Kotlin's SAM conversion?",
+        "options": [
+            "An onClickListener for a button",
+            "Inheriting from AppCompatActivity",
+            "Converting a file from Java to Kotlin",
+            "Making code null safe"
+        ],
+        "answer": "An onClickListener for a button"
+    },
+    {
+        "text": "What is one of the purposes of the FirebaseRecyclerAdapter class?",
+        "options": [
+            "Determining whether a RecyclerView will be a grid or a column",
+            "Providing a simple library for authentication with Firebase",
+            "Running a query from a Firebase Database",
+            "Showing the data from Firebase to the user"
+        ],
+        "answer": "Showing the data from Firebase to the user"
+    },
+    {
+        "text": "What is the FirebaseRecyclerOptions class used for?",
+        "options": [
+            "Configuring a FirebaseRecyclerAdapter with a query and a Kotlin class",
+            "Adding an XML file to the adapter",
+            "Querying data from Firebase",
+            "Setting whether the Firebase Recycler should be linear or grid"
+        ],
+        "answer": "Configuring a FirebaseRecyclerAdapter with a query and a Kotlin class"
+    },
+    {
+        "text": "What does the following class declaration mean:\nclass MainActivity : AppCompatActivity() {}",
+        "options": [
+            "Create a method called AppCompatActivity returning a MainActivity object",
+            "Create a class and call a method called 'AppCompatActivity'",
+            "This is missing the 'extends' keyword and will cause a syntax error",
+            "Create a class inheriting from AppCompatActivity"
+        ],
+        "answer": "Create a class inheriting from AppCompatActivity"
+    },
+    {
+        "text": "What would the following Firebase rule do?\n'write' : 'auth.uid != null'",
+        "options": [
+            "Only allow logged in users to write to the database",
+            "Only allow users to write to messages in their own account",
+            "Only allow admins to write to the database",
+            "Allow anyone to write to the database"
+        ],
+        "answer": "Only allow logged in users to write to the database"
+    },
+    {
+        "text": "What was the major use case of the Glide library in this course?",
+        "options": [
+            "Displaying images from cloud storage",
+            "Creating a RecyclerView for Firebase",
+            "Querying the database we've created",
+            "Providing an easy to use Authentication login screen"
+        ],
+        "answer": "Displaying images from cloud storage"
+    },
+    {
+        "text": "What does the setState() method do in Flutter?",
+        "options": [
+            "Updates the state of the widget and triggers a rebuild of the UI.",
+            "Sets the state to null.",
+            "Adds a new state to the widget.",
+            "Removes the widget from the widget tree."
+        ],
+        "answer": "Updates the state of the widget and triggers a rebuild of the UI."
+    },
+    {
+        "text": "Which of the following is true about the main function in Dart?",
+        "options": [
+            "It is required in every Dart program.",
+            "It is used to define the entry point of the program.",
+            "It is where the build method of a widget is called.",
+            "It is used to create instances of classes."
+        ],
+        "answer": "It is used to define the entry point of the program."
+    },
+    {
+        "text": "What is the purpose of the MaterialApp widget in a Flutter application?",
+        "options": [
+            "It defines the theme of the application.",
+            "It provides a container for other widgets.",
+            "It configures the navigation for the application.",
+            "It is required to define the layout of the application."
+        ],
+        "answer": "It configures the navigation for the application."
+    },
+    {
+        "text": "How is routing typically implemented in a Flutter application?",
+        "options": [
+            "Using the Navigator widget.",
+            "By directly manipulating the widget tree.",
+            "By using the MaterialApp widget.",
+            "By creating custom routing logic."
+        ],
+        "answer": "By using the MaterialApp widget."
+    },
+    {
+        "text": "What is the purpose of the initState() method in a Stateful widget?",
+        "options": [
+            "It initializes the state of the widget.",
+            "It defines the build method of the widget.",
+            "It is called when the widget is removed from the widget tree.",
+            "It is used to define event listeners for the widget."
+        ],
+        "answer": "It initializes the state of the widget."
+    },
+    {
+        "text": "Which widget is used to create a scrollable list of widgets in Flutter?",
+        "options": [
+            "ListView",
+            "Column",
+            "GridView",
+            "SingleChildScrollView"
+        ],
+        "answer": "ListView"
+    },
+    {
+        "text": "What is the purpose of the crossAxisAlignment property in a Row widget?",
+        "options": [
+            "It defines how children widgets are aligned vertically.",
+            "It defines how children widgets are aligned horizontally.",
+            "It defines how much space the Row widget occupies in its parent.",
+            "It defines how the Row widget responds to overflow."
+        ],
+        "answer": "It defines how children widgets are aligned vertically."
+    },
+    {
+        "text": "In Flutter, how can you pass data between screens?",
+        "options": [
+            "Using the context object.",
+            "Using the setState() method.",
+            "Using named routes.",
+            "Using constructor parameters."
+        ],
+        "answer": "Using named routes."
+    },
+    {
+        "text": "What is the purpose of the mainAxisSize property in a Row or Column widget?",
+        "options": [
+            "It defines the size of the main axis.",
+            "It defines the size of the cross axis.",
+            "It determines how much space the widget occupies in its parent.",
+            "It determines how the widget is aligned within its parent."
+        ],
+        "answer": "It defines the size of the main axis."
+    },
+    {
+        "text": "What is the purpose of the mainAxisAlignment property in a Row widget?",
+        "options": [
+            "It defines how children widgets are aligned vertically.",
+            "It defines how children widgets are aligned horizontally.",
+            "It defines how much space the Row widget occupies in its parent.",
+            "It defines how the Row widget responds to overflow."
+        ],
+        "answer": "It defines how children widgets are aligned horizontally."
+    },
+    {
+        "text": "What is the purpose of the crossAxisAlignment property in a Row widget?",
+        "options": [
+            "It defines how children widgets are aligned vertically.",
+            "It defines how children widgets are aligned horizontally.",
+            "It defines how much space the Row widget occupies in its parent.",
+            "It defines how the Row widget responds to overflow."
+        ],
+        "answer": "It defines how children widgets are aligned vertically."
+    },
+    {
+        "text": "In Flutter, how can you pass data between screens?",
+        "options": [
+            "Using the context object.",
+            "Using the setState() method.",
+            "Using named routes.",
+            "Using constructor parameters."
+        ],
+        "answer": "Using named routes."
+    },
+    {
+        "text": "What is the purpose of the mainAxisSize property in a Row or Column widget?",
+        "options": [
+            "It defines the size of the main axis.",
+            "It defines the size of the cross axis.",
+            "It determines how much space the widget occupies in its parent.",
+            "It determines how the widget is aligned within its parent."
+        ],
+        "answer": "It defines the size of the main axis."
+    },
+    {
+        "text": "What is the purpose of the mainAxisAlignment property in a Row widget?",
+        "options": [
+            "It defines how children widgets are aligned vertically.",
+            "It defines how children widgets are aligned horizontally.",
+            "It defines how much space the Row widget occupies in its parent.",
+            "It defines how the Row widget responds to overflow."
+        ],
+        "answer": "It defines how children widgets are aligned horizontally."
+    },
+    {
+        "text": "Which of the following is true about the main function in Dart?",
+        "options": [
+            "It is required in every Dart program.",
+            "It is used to define the entry point of the program.",
+            "It is where the build method of a widget is called.",
+            "It is used to create instances of classes."
+        ],
+        "answer": "It is used to define the entry point of the program."
+    },
+    {
+        "text": "What is the purpose of the MaterialApp widget in a Flutter application?",
+        "options": [
+            "It defines the theme of the application.",
+            "It provides a container for other widgets.",
+            "It configures the navigation for the application.",
+            "It is required to define the layout of the application."
+        ],
+        "answer": "It configures the navigation for the application."
+    },
+    {
+        "text": "How is routing typically implemented in a Flutter application?",
+        "options": [
+            "Using the Navigator widget.",
+            "By directly manipulating the widget tree.",
+            "By using the MaterialApp widget.",
+            "By creating custom routing logic."
+        ],
+        "answer": "By using the MaterialApp widget."
+    },
+    {
+        "text": "What is the purpose of the initState() method in a Stateful widget?",
+        "options": [
+            "It initializes the state of the widget.",
+            "It defines the build method of the widget.",
+            "It is called when the widget is removed from the widget tree.",
+            "It is used to define event listeners for the widget."
+        ],
+        "answer": "It initializes the state of the widget."
+    },
+    {
+        "text": "Which widget is used to create a scrollable list of widgets in Flutter?",
+        "options": [
+            "ListView",
+            "Column",
+            "GridView",
+            "SingleChildScrollView"
+        ],
+        "answer": "ListView"
+    },
+    {
+        "text": "What is the purpose of the setState() method in Flutter?",
+        "options": [
+            "To update the state of the widget and trigger a rebuild of the UI.",
+            "To set the state to null.",
+            "To add a new state to the widget.",
+            "To remove the widget from the widget tree."
+        ],
+        "answer": "To update the state of the widget and trigger a rebuild of the UI."
+    },
+    {
+        "text": "What is the equivalent of a constructor in Kotlin?",
+        "options": [
+            "init block",
+            "constructor keyword",
+            "create function",
+            "init function"
+        ],
+        "answer": "init block"
+    },
+    {
+        "text": "In Flutter, which widget is used to create a row of items with a horizontal direction?",
+        "options": [
+            "Column",
+            "Row",
+            "ListView",
+            "GridView"
+        ],
+        "answer": "Row"
+    },
+    {
+        "text": "What is the purpose of the 'lateinit' keyword in Kotlin?",
+        "options": [
+            "To declare a property that can be initialized later",
+            "To declare a property that cannot be modified after initialization",
+            "To declare a property that must be initialized in the constructor",
+            "To declare a property that is initialized lazily"
+        ],
+        "answer": "To declare a property that can be initialized later"
+    },
+    {
+        "text": "Which of the following is true about Dart's type system?",
+        "options": [
+            "Dart is a dynamically typed language",
+            "Dart is a statically typed language",
+            "Dart's type system is similar to Java",
+            "Dart does not support type annotations"
+        ],
+        "answer": "Dart is a statically typed language"
+    },
+    {
+        "text": "What is the purpose of the 'lateinit' keyword in Kotlin?",
+        "options": [
+            "To declare a property that can be initialized later",
+            "To declare a property that cannot be modified after initialization",
+            "To declare a property that must be initialized in the constructor",
+            "To declare a property that is initialized lazily"
+        ],
+        "answer": "To declare a property that can be initialized later"
+    },
+    {
+        "text": "In Flutter, what does the main function typically do?",
+        "options": [
+            "Defines the entry point of the application",
+            "Initializes the application's state",
+            "Defines the layout of the application",
+            "Handles user interactions"
+        ],
+        "answer": "Defines the entry point of the application"
+    },
+    {
+        "text": "What is the equivalent of a constructor in Kotlin?",
+        "options": [
+            "init block",
+            "constructor keyword",
+            "create function",
+            "init function"
+        ],
+        "answer": "init block"
+    },
+    {
+        "text": "In Flutter, which widget is used to create a column of items with a vertical direction?",
+        "options": [
+            "Column",
+            "Row",
+            "ListView",
+            "GridView"
+        ],
+        "answer": "Column"
+    },
+    {
+        "text": "What is the purpose of the 'lateinit' keyword in Kotlin?",
+        "options": [
+            "To declare a property that can be initialized later",
+            "To declare a property that cannot be modified after initialization",
+            "To declare a property that must be initialized in the constructor",
+            "To declare a property that is initialized lazily"
+        ],
+        "answer": "To declare a property that can be initialized later"
+    },
+    {
+        "text": "Which of the following is true about Dart's type system?",
+        "options": [
+            "Dart is a dynamically typed language",
+            "Dart is a statically typed language",
+            "Dart's type system is similar to Java",
+            "Dart does not support type annotations"
+        ],
+        "answer": "Dart is a statically typed language"
     }
 ]

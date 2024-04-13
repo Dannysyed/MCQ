@@ -1,578 +1,404 @@
 [
     {
-        "text": "What is a widget's build method primarily used for?",
+        "text": "Select All that are correct for using this class:",
         "options": [
-            "Describing how the widget appears in terms of UI",
-            "Downloading the build.gradle file to allow for Android integration",
-            "Creating a State variable which will change based on user input",
-            "Creating a Flutter application"
+            "class Car { public $color; private $type; function getType() { return $this->type; } function setType($newType) { $this->type = $newType; } } $my_car = new Car(); $my_car->color = 'White';",
+            "$my_car->type = 'Coupe'; will throw an error.",
+            "This Code is error free.",
+            "To use this syntax $my_car->type = 'Coupe', property 'type' should be public.",
+            "All options are incorrect."
         ],
-        "answer": "Describing how the widget appears in terms of UI"
+        "answer": [
+            "To use this syntax $my_car->type = 'Coupe', property 'type' should be public."
+        ]
     },
     {
-        "text": "What is one use of the : operator in Dart?",
+        "text": "Which of the following statement is incorrect:",
         "options": [
-            "Creating a null safe typing",
-            "Building a widget in the UI",
-            "Invoking a parent constructor",
-            "A special type of for loop"
+            "echo('Hello World');",
+            "ecHO('Hello World');",
+            "echo('Hello World')",
+            "ECHO('Hello World');"
         ],
-        "answer": "Invoking a parent constructor"
+        "answer": [
+            "ecHO('Hello World');"
+        ]
     },
     {
-        "text": "Suppose we want our Student class to inherit from Person. How would we do this in Dart?",
+        "text": "In a REST API, the Response code 500 indicates:",
         "options": [
-            "class Student extends Person",
-            "class Student : Person",
-            "class Student -> Person",
-            "class Student inherits Person"
+            "The resource was not found (for example, attempting to delete an author with an ID that does not exist)",
+            "An error occurred on the server side",
+            "The request hit a valid endpoint but was malformed and could not be completed",
+            "Along with 403 Forbidden, represents a valid request, but one that would not be completed due to a lack of permissions"
         ],
-        "answer": "class Student extends Person"
+        "answer": [
+            "An error occurred on the server side"
+        ]
     },
     {
-        "text": "Functions are not 'first class' in Dart, so they cannot be assigned to a variable directly.",
+        "text": "We manually need to create a cookie to save the session id.",
         "options": [
             "True",
             "False"
         ],
-        "answer": "False"
+        "answer": [
+            "True"
+        ]
     },
     {
-        "text": "Which widget is often used to create a small circular button at the bottom of the screen in Android?",
-        "options": [
-            "ElevatedButton",
-            "CupertinoButton",
-            "FloatingActionButton",
-            "Button"
-        ],
-        "answer": "FloatingActionButton"
-    },
-    {
-        "text": "Suppose you have a Row widget. What would you generally put in its children argument?",
-        "options": [
-            "Other widgets you wish to position together in a row",
-            "Row does not have a children argument",
-            "Code to center the widgets in the middle",
-            "A controller to handle state changes for the row"
-        ],
-        "answer": "Other widgets you wish to position together in a row"
-    },
-    {
-        "text": "A CupertinoButton is designed to look like an iOS button.",
+        "text": "A Relational Database Management System (RDBMS) is a server that manages data for you. The data is structured into tables, where each table has a number of columns, each of which has a name and a type.",
         "options": [
             "True",
             "False"
         ],
-        "answer": "True"
+        "answer": [
+            "True"
+        ]
     },
     {
-        "text": "What is a Hero widget commonly used for?",
+        "text": "Select all the correct statements:",
         "options": [
-            "Creating a centered layout for your application",
-            "Displaying an iOS style button",
-            "Animating the transition between two screens",
-            "Rotating or scaling widgets when you press a button"
+            "getters and setters are used to access property 'type' as it is private.",
+            "getters and setters are not used to access property 'type' as it is private. It will throw an error.",
+            "Only way to access 'type' property is to make is public.",
+            "all the statements are correct."
         ],
-        "answer": "Animating the transition between two screens"
+        "answer": [
+            "Only way to access 'type' property is to make is public."
+        ]
     },
     {
-        "text": "Which Flutter widget would we use to display cards for every element of a collection?",
+        "text": "Select all the statements that will not throw an error according the following code.",
         "options": [
-            "Scaffold",
-            "ListView",
-            "AppBar",
-            "RecyclerView"
+            "$my_car->type = 'SUV';",
+            "$my_car->color = 'White';",
+            "echo $my_car->type;"
         ],
-        "answer": "ListView"
+        "answer": [
+            "$my_car->color = 'White';"
+        ]
     },
     {
-        "text": "Which widget can be used to provide event listeners such as onTap to widgets that don't have that functionality like Cards?",
+        "text": "In a REST API, the PUT request method is used for:",
         "options": [
-            "ElevatedButton",
-            "onClickListener",
-            "GestureDetector",
-            "Hero"
+            "Retrieve information about a resource or collection of resources",
+            "Delete a resource or a collection of resources",
+            "Create a new resource",
+            "Update a resource with new data, or replace a collection of resources with new ones"
         ],
-        "answer": "GestureDetector"
+        "answer": [
+            "Update a resource with new data, or replace a collection of resources with new ones"
+        ]
     },
     {
-        "text": "A widget like a shopping cart icon with a counter that increases each time the user adds a new item should be stateless.",
+        "text": "For deleting a cookie.",
         "options": [
-            "True",
-            "False"
+            "There is no specific function for deleting a cookie.",
+            "Instead we can overwrite the existing cookie with a blank value and set expiration time that is in the past.",
+            "Both statements are true",
+            "Both statements are false."
         ],
-        "answer": "False"
+        "answer": [
+            "Both statements are true"
+        ]
     },
     {
-        "text": "Flutter can be used to build both Android and iOS applications.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": "True"
-    },
-    {
-        "text": "When the properties of an AnimatedContainer change (for example, the height), they will be animated automatically.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": "True"
-    },
-    {
-        "text": "When the state of a Stateful Widget changes, the UI will be rebuilt.",
+        "text": "It is not possible in php to declare the return type of a function.",
         "options": [
             "True",
             "False"
         ],
-        "answer": "True"
+        "answer": [
+            "True"
+        ]
     },
     {
-        "text": "The data in Firebase Realtime Database is structured as JSON.",
+        "text": "A WordPress plugin is",
+        "options": [
+            "Plugins can extend existing functionality on your site.",
+            "Plugins can add new functionality.",
+            "A piece of software that 'plugs into' your WordPress site.",
+            "All of above."
+        ],
+        "answer": [
+            "All of above."
+        ]
+    },
+    {
+        "text": "In 'php.ini' file, file_uploads directive should be set to on to allow file uploads",
         "options": [
             "True",
             "False"
         ],
-        "answer": "True"
+        "answer": [
+            "True"
+        ]
     },
     {
-        "text": "What would the value of myString be after the following code runs:\nval myInt = 4;\nval myString = if (myInt > 4) \"Hello\" else \"Goodbye\"",
+        "text": "Select all that are required to create connection with MySQL database using mysqli_connect() function.",
         "options": [
-            "This code is incorrect and will not work",
-            "Hello",
-            "Goodbye",
-            "4"
+            "DB_USER",
+            "DB_PASSWORD",
+            "DB_NAME",
+            "DB_DRIVERS",
+            "DB_HOST"
         ],
-        "answer": "Goodbye"
+        "answer": [
+            "DB_USER",
+            "DB_PASSWORD",
+            "DB_NAME",
+            "DB_HOST"
+        ]
     },
     {
-        "text": "What code would we generally put inside onBindViewHolder for a FirebaseRecyclerView?",
+        "text": "When we call session_destroy(), it removes the data store for the current session, but it doesn't remove the cookie from the browser cache. on subsequent visits to sessions-enabled pages, the user will have the same session ID as before the call to session_destroy(), but none of the data.",
         "options": [
-            "Setting whether the RecyclerView should be linear or with a grid",
-            "Taking data from the model and setting the widgets' properties with it",
-            "Getting a reference to the RecyclerView widget",
-            "Constructors for ViewHolder objects with inflaters"
+            "True",
+            "False"
         ],
-        "answer": "Taking data from the model and setting the widgets' properties with it"
+        "answer": [
+            "True"
+        ]
     },
     {
-        "text": "Which file would we add our dependencies to?",
+        "text": "In a REST API, the POST request method is used for:",
         "options": [
-            "build.gradle",
-            "dependencies.json",
-            "AndroidManifest.xml",
-            "R.java"
+            "Update a resource with new data, or replace a collection of resources with new ones",
+            "Retrieve information about a resource or collection of resources",
+            "Delete a resource or a collection of resources",
+            "Create a new resource"
         ],
-        "answer": "build.gradle"
+        "answer": [
+            "Create a new resource"
+        ]
     },
     {
-        "text": "What is one of the purposes of the FirebaseRecyclerAdapter class?",
+        "text": "Select all that can be compiled from the following script:",
         "options": [
-            "Running a query from a Firebase Database",
-            "Providing a simple library for authentication with Firebase",
-            "Determining whether a RecyclerView will be a grid or a column",
-            "Showing the data from Firebase to the user"
+            "$dbc = @mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME) OR die ('Could not connect to MySQL: ' . mysqli_connect_error());",
+            "Connect to MySQL Database using these parameters : DB_HOST, DB_USER, DB_PASSWORD, DB NAME",
+            "If there is an error, the php script will die and stop executing.",
+            "Error message will be displayed.",
+            "PHP script will continue to execute even if there is an error in creating a connection with database."
         ],
-        "answer": "Showing the data from Firebase to the user"
+        "answer": [
+            "$dbc = @mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME) OR die ('Could not connect to MySQL: ' . mysqli_connect_error());",
+            "Connect to MySQL Database using these parameters : DB_HOST, DB_USER, DB_PASSWORD, DB NAME",
+            "If there is an error, the php script will die and stop executing.",
+            "Error message will be displayed."
+        ]
     },
     {
-        "text": "What does the 'var' keyword do in Kotlin?",
+        "text": "When writing a WordPress plugin, the header comment must contain the Plugin Name.",
         "options": [
-            "Creates a null safe variable",
-            "Creates a variable that can be reassigned",
-            "The var keyword does not exist in Kotlin",
-            "Creates an immutable variable that cannot be reassigned"
+            "True",
+            "False"
         ],
-        "answer": "Creates a variable that can be reassigned"
+        "answer": [
+            "True"
+        ]
     },
     {
-        "text": "What will the following loop do:\nfor (x in 0..100)\nLog.i('test', x)}",
+        "text": "Search Engines can be easily index Ajax. Pages can be indexed by Google as well as other search engines.",
         "options": [
-            "Crash the application",
-            "Print the word 'Test' 101 times",
-            "Print all numbers from 0 to 100",
-            "Print all numbers from 1 to 99"
+            "True",
+            "False"
         ],
-        "answer": "Print all numbers from 0 to 100"
+        "answer": [
+            "True"
+        ]
     },
     {
-        "text": "What would the value of myString be after the following code runs:\nval myInt = 4;\nval myString = if (myInt > 4) 'Hello' else 'Goodbye'",
+        "text": "Select all that are required to create a connection to database using PDO.",
         "options": [
-            "This code is incorrect and will not work",
-            "Hello",
-            "Goodbye",
-            "4"
+            "Database User",
+            "Database Password",
+            "Database Host",
+            "Charset",
+            "Database Name"
         ],
-        "answer": "Goodbye"
+        "answer": [
+            "Database User",
+            "Database Password",
+            "Database Host",
+            "Database Name"
+        ]
     },
     {
-        "text": "What does the '?' operator do in Kotlin?\nFor example: myTextView?.text = 'Hello'",
+        "text": "GET request method",
         "options": [
-            "Adds the object to a database automatically",
-            "Encapsulates the object",
-            "Only invokes the method if the object is not null",
-            "Sets the value of a widget to be null"
+            "Encodes the form parameters in the URL in a query string, which is indicated by the text",
+            "None",
+            "It passes the form parameters in the body of the HTTP request, leaving the URL untouched."
         ],
-        "answer": "Only invokes the method if the object is not null"
+        "answer": [
+            "Encodes the form parameters in the URL in a query string, which is indicated by the text"
+        ]
     },
     {
-        "text": "What is a common use case for Kotlin's SAM conversion?",
+        "text": "mysqli_num_rows(mysqli_result $result) is used to return the number of rows fetched from the server.",
         "options": [
-            "An onClickListener for a button",
-            "Inheriting from AppCompatActivity",
-            "Converting a file from Java to Kotlin",
-            "Making code null safe"
+            "True",
+            "False"
         ],
-        "answer": "An onClickListener for a button"
+        "answer": [
+            "True"
+        ]
     },
     {
-        "text": "What is one of the purposes of the FirebaseRecyclerAdapter class?",
+        "text": "Select all that applies for mysqli_query()",
         "options": [
-            "Determining whether a RecyclerView will be a grid or a column",
-            "Providing a simple library for authentication with Firebase",
-            "Running a query from a Firebase Database",
-            "Showing the data from Firebase to the user"
+            "This function accepts 2 arguments, 1. Database connection 2. Query to be executed.",
+            "This will not execute the query.",
+            "It will execute the query if provided with correct arguments."
         ],
-        "answer": "Showing the data from Firebase to the user"
+        "answer": [
+            "This function accepts 2 arguments, 1. Database connection 2. Query to be executed.",
+            "It will execute the query if provided with correct arguments."
+        ]
     },
     {
-        "text": "What is the FirebaseRecyclerOptions class used for?",
+        "text": "Match the File Opening Modes and their description.",
         "options": [
-            "Configuring a FirebaseRecyclerAdapter with a query and a Kotlin class",
-            "Adding an XML file to the adapter",
-            "Querying data from Firebase",
-            "Setting whether the Firebase Recycler should be linear or grid"
+            "W OR W2 Opens a file for write only. If file not exist then new file is created and if file already exists then contents of file is erased. -W",
+            "Opens file for read and write. If file not exist then new file is created and if file already exists then contents of file is erased. -W+"
         ],
-        "answer": "Configuring a FirebaseRecyclerAdapter with a query and a Kotlin class"
+        "answer": [
+            "W OR W2 Opens a file for write only. If file not exist then new file is created and if file already exists then contents of file is erased."
+        ]
     },
     {
-        "text": "What does the following class declaration mean:\nclass MainActivity : AppCompatActivity() {}",
+        "text": "PHP programming language is :",
         "options": [
-            "Create a method called AppCompatActivity returning a MainActivity object",
-            "Create a class and call a method called 'AppCompatActivity'",
-            "This is missing the 'extends' keyword and will cause a syntax error",
-            "Create a class inheriting from AppCompatActivity"
+            "Both",
+            "Client-Side Language",
+            "Server-Side Language",
+            "None"
         ],
-        "answer": "Create a class inheriting from AppCompatActivity"
+        "answer": [
+            "Both"
+        ]
     },
     {
-        "text": "What would the following Firebase rule do?\n'write' : 'auth.uid != null'",
+        "text": "The inspection process is called filtering, where only valid data is allowed to enter the application database.",
         "options": [
-            "Only allow logged in users to write to the database",
-            "Only allow users to write to messages in their own account",
-            "Only allow admins to write to the database",
-            "Allow anyone to write to the database"
+            "True",
+            "False"
         ],
-        "answer": "Only allow logged in users to write to the database"
+        "answer": [
+            "True"
+        ]
     },
     {
-        "text": "What was the major use case of the Glide library in this course?",
+        "text": "In a REST API, the Response code 400 indicates:",
         "options": [
-            "Displaying images from cloud storage",
-            "Creating a RecyclerView for Firebase",
-            "Querying the database we've created",
-            "Providing an easy to use Authentication login screen"
+            "The resource was not found (for example, attempting to delete an author with an ID that does not exist)",
+            "Along with 403 Forbidden, represents a valid request, but one that could not be completed due to a lack of permissions",
+            "The request hit a valid endpoint but was malformed and could not be completed",
+            "An error occurred on the server side."
         ],
-        "answer": "Displaying images from cloud storage"
+        "answer": [
+            "The request hit a valid endpoint but was malformed and could not be completed"
+        ]
     },
     {
-        "text": "What does the setState() method do in Flutter?",
+        "text": "SELECT a.name, b.title FROM books b, authors a WHERE a.authorid = b.authorid;",
         "options": [
-            "Updates the state of the widget and triggers a rebuild of the UI.",
-            "Sets the state to null.",
-            "Adds a new state to the widget.",
-            "Removes the widget from the widget tree."
+            "Aliases are not allowed on table names but column names only.",
+            "In the above query, 'a' and 'b' are the aliases for table authors and books respectively.",
+            "This query has an error and will not execute."
         ],
-        "answer": "Updates the state of the widget and triggers a rebuild of the UI."
+        "answer": [
+            "In the above query, 'a' and 'b' are the aliases for table authors and books respectively."
+        ]
     },
     {
-        "text": "Which of the following is true about the main function in Dart?",
+        "text": "Cross Site Scripting is",
         "options": [
-            "It is required in every Dart program.",
-            "It is used to define the entry point of the program.",
-            "It is where the build method of a widget is called.",
-            "It is used to create instances of classes."
+            "None",
+            "A security vulnerability that allows an attacker to interfere with the queries that an application makes to its database",
+            "An attacks that occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script, to a different end user",
+            "Both"
         ],
-        "answer": "It is used to define the entry point of the program."
+        "answer": [
+            "An attacks that occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script, to a different end user"
+        ]
     },
     {
-        "text": "What is the purpose of the MaterialApp widget in a Flutter application?",
+        "text": "Calling the debugDumpParams() method on the statement object prints a variety of information about the call including errors.",
         "options": [
-            "It defines the theme of the application.",
-            "It provides a container for other widgets.",
-            "It configures the navigation for the application.",
-            "It is required to define the layout of the application."
+            "True",
+            "False"
         ],
-        "answer": "It configures the navigation for the application."
+        "answer": [
+            "True"
+        ]
     },
     {
-        "text": "How is routing typically implemented in a Flutter application?",
+        "text": "The contents of data are read using fread()",
         "options": [
-            "Using the Navigator widget.",
-            "By directly manipulating the widget tree.",
-            "By using the MaterialApp widget.",
-            "By creating custom routing logic."
+            "True",
+            "False"
         ],
-        "answer": "By using the MaterialApp widget."
+        "answer": [
+            "True"
+        ]
     },
     {
-        "text": "What is the purpose of the initState() method in a Stateful widget?",
+        "text": "The first screen which will be seen when you log into the administration area of your blog which will display the overview of the website. It is a collection of gadgets.",
         "options": [
-            "It initializes the state of the widget.",
-            "It defines the build method of the widget.",
-            "It is called when the widget is removed from the widget tree.",
-            "It is used to define event listeners for the widget."
+            "True",
+            "False"
         ],
-        "answer": "It initializes the state of the widget."
+        "answer": [
+            "True"
+        ]
     },
     {
-        "text": "Which widget is used to create a scrollable list of widgets in Flutter?",
+        "text": "There is no limit on how many pages you create in WordPress.",
         "options": [
-            "ListView",
-            "Column",
-            "GridView",
-            "SingleChildScrollView"
+            "True",
+            "False"
         ],
-        "answer": "ListView"
+        "answer": [
+            "True"
+        ]
     },
     {
-        "text": "What is the purpose of the crossAxisAlignment property in a Row widget?",
+        "text": "SQL Injection is",
         "options": [
-            "It defines how children widgets are aligned vertically.",
-            "It defines how children widgets are aligned horizontally.",
-            "It defines how much space the Row widget occupies in its parent.",
-            "It defines how the Row widget responds to overflow."
+            "An attacks that occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script, to a different end user.",
+            "None",
+            "Both",
+            "A security vulnerability that allows an attacker to interfere wit the queries that an application makes to its database"
         ],
-        "answer": "It defines how children widgets are aligned vertically."
+        "answer": [
+            "A security vulnerability that allows an attacker to interfere wit the queries that an application makes to its database"
+        ]
     },
     {
-        "text": "In Flutter, how can you pass data between screens?",
+        "text": "Choose an option that defines the functioning of break statement in php.",
         "options": [
-            "Using the context object.",
-            "Using the setState() method.",
-            "Using named routes.",
-            "Using constructor parameters."
+            "NONE",
+            "It causes the loop to skip the remainder of its body and immediately retest its condition prior to reiterating.",
+            "It terminates the for loop or switch statement and transfers execution to the statement immediately following the for loop or switch.",
+            "Both"
         ],
-        "answer": "Using named routes."
+        "answer": [
+            "It causes the loop to skip the remainder of its body and immediately retest its condition prior to reiterating."
+        ]
     },
     {
-        "text": "What is the purpose of the mainAxisSize property in a Row or Column widget?",
+        "text": "Choose the option with correct PHP code:",
         "options": [
-            "It defines the size of the main axis.",
-            "It defines the size of the cross axis.",
-            "It determines how much space the widget occupies in its parent.",
-            "It determines how the widget is aligned within its parent."
+            "<?php echo 'Hello World! This is my first PHP Script!'; ?>",
+            "o<?php echo 'Hello World! This is my first PHP Script!'; ?>",
+            "<? echo 'Hello World! This is my first PHP Script!'; ?>",
+            "<?php echo 'Hello World! This is my first PHP Script!'; ?>"
         ],
-        "answer": "It defines the size of the main axis."
-    },
-    {
-        "text": "What is the purpose of the mainAxisAlignment property in a Row widget?",
-        "options": [
-            "It defines how children widgets are aligned vertically.",
-            "It defines how children widgets are aligned horizontally.",
-            "It defines how much space the Row widget occupies in its parent.",
-            "It defines how the Row widget responds to overflow."
-        ],
-        "answer": "It defines how children widgets are aligned horizontally."
-    },
-    {
-        "text": "What is the purpose of the crossAxisAlignment property in a Row widget?",
-        "options": [
-            "It defines how children widgets are aligned vertically.",
-            "It defines how children widgets are aligned horizontally.",
-            "It defines how much space the Row widget occupies in its parent.",
-            "It defines how the Row widget responds to overflow."
-        ],
-        "answer": "It defines how children widgets are aligned vertically."
-    },
-    {
-        "text": "In Flutter, how can you pass data between screens?",
-        "options": [
-            "Using the context object.",
-            "Using the setState() method.",
-            "Using named routes.",
-            "Using constructor parameters."
-        ],
-        "answer": "Using named routes."
-    },
-    {
-        "text": "What is the purpose of the mainAxisSize property in a Row or Column widget?",
-        "options": [
-            "It defines the size of the main axis.",
-            "It defines the size of the cross axis.",
-            "It determines how much space the widget occupies in its parent.",
-            "It determines how the widget is aligned within its parent."
-        ],
-        "answer": "It defines the size of the main axis."
-    },
-    {
-        "text": "What is the purpose of the mainAxisAlignment property in a Row widget?",
-        "options": [
-            "It defines how children widgets are aligned vertically.",
-            "It defines how children widgets are aligned horizontally.",
-            "It defines how much space the Row widget occupies in its parent.",
-            "It defines how the Row widget responds to overflow."
-        ],
-        "answer": "It defines how children widgets are aligned horizontally."
-    },
-    {
-        "text": "Which of the following is true about the main function in Dart?",
-        "options": [
-            "It is required in every Dart program.",
-            "It is used to define the entry point of the program.",
-            "It is where the build method of a widget is called.",
-            "It is used to create instances of classes."
-        ],
-        "answer": "It is used to define the entry point of the program."
-    },
-    {
-        "text": "What is the purpose of the MaterialApp widget in a Flutter application?",
-        "options": [
-            "It defines the theme of the application.",
-            "It provides a container for other widgets.",
-            "It configures the navigation for the application.",
-            "It is required to define the layout of the application."
-        ],
-        "answer": "It configures the navigation for the application."
-    },
-    {
-        "text": "How is routing typically implemented in a Flutter application?",
-        "options": [
-            "Using the Navigator widget.",
-            "By directly manipulating the widget tree.",
-            "By using the MaterialApp widget.",
-            "By creating custom routing logic."
-        ],
-        "answer": "By using the MaterialApp widget."
-    },
-    {
-        "text": "What is the purpose of the initState() method in a Stateful widget?",
-        "options": [
-            "It initializes the state of the widget.",
-            "It defines the build method of the widget.",
-            "It is called when the widget is removed from the widget tree.",
-            "It is used to define event listeners for the widget."
-        ],
-        "answer": "It initializes the state of the widget."
-    },
-    {
-        "text": "Which widget is used to create a scrollable list of widgets in Flutter?",
-        "options": [
-            "ListView",
-            "Column",
-            "GridView",
-            "SingleChildScrollView"
-        ],
-        "answer": "ListView"
-    },
-    {
-        "text": "What is the purpose of the setState() method in Flutter?",
-        "options": [
-            "To update the state of the widget and trigger a rebuild of the UI.",
-            "To set the state to null.",
-            "To add a new state to the widget.",
-            "To remove the widget from the widget tree."
-        ],
-        "answer": "To update the state of the widget and trigger a rebuild of the UI."
-    },
-    {
-        "text": "What is the equivalent of a constructor in Kotlin?",
-        "options": [
-            "init block",
-            "constructor keyword",
-            "create function",
-            "init function"
-        ],
-        "answer": "init block"
-    },
-    {
-        "text": "In Flutter, which widget is used to create a row of items with a horizontal direction?",
-        "options": [
-            "Column",
-            "Row",
-            "ListView",
-            "GridView"
-        ],
-        "answer": "Row"
-    },
-    {
-        "text": "What is the purpose of the 'lateinit' keyword in Kotlin?",
-        "options": [
-            "To declare a property that can be initialized later",
-            "To declare a property that cannot be modified after initialization",
-            "To declare a property that must be initialized in the constructor",
-            "To declare a property that is initialized lazily"
-        ],
-        "answer": "To declare a property that can be initialized later"
-    },
-    {
-        "text": "Which of the following is true about Dart's type system?",
-        "options": [
-            "Dart is a dynamically typed language",
-            "Dart is a statically typed language",
-            "Dart's type system is similar to Java",
-            "Dart does not support type annotations"
-        ],
-        "answer": "Dart is a statically typed language"
-    },
-    {
-        "text": "What is the purpose of the 'lateinit' keyword in Kotlin?",
-        "options": [
-            "To declare a property that can be initialized later",
-            "To declare a property that cannot be modified after initialization",
-            "To declare a property that must be initialized in the constructor",
-            "To declare a property that is initialized lazily"
-        ],
-        "answer": "To declare a property that can be initialized later"
-    },
-    {
-        "text": "In Flutter, what does the main function typically do?",
-        "options": [
-            "Defines the entry point of the application",
-            "Initializes the application's state",
-            "Defines the layout of the application",
-            "Handles user interactions"
-        ],
-        "answer": "Defines the entry point of the application"
-    },
-    {
-        "text": "What is the equivalent of a constructor in Kotlin?",
-        "options": [
-            "init block",
-            "constructor keyword",
-            "create function",
-            "init function"
-        ],
-        "answer": "init block"
-    },
-    {
-        "text": "In Flutter, which widget is used to create a column of items with a vertical direction?",
-        "options": [
-            "Column",
-            "Row",
-            "ListView",
-            "GridView"
-        ],
-        "answer": "Column"
-    },
-    {
-        "text": "What is the purpose of the 'lateinit' keyword in Kotlin?",
-        "options": [
-            "To declare a property that can be initialized later",
-            "To declare a property that cannot be modified after initialization",
-            "To declare a property that must be initialized in the constructor",
-            "To declare a property that is initialized lazily"
-        ],
-        "answer": "To declare a property that can be initialized later"
-    },
-    {
-        "text": "Which of the following is true about Dart's type system?",
-        "options": [
-            "Dart is a dynamically typed language",
-            "Dart is a statically typed language",
-            "Dart's type system is similar to Java",
-            "Dart does not support type annotations"
-        ],
-        "answer": "Dart is a statically typed language"
+        "answer": [
+            "<?php echo 'Hello World! This is my first PHP Script!'; ?>"
+        ]
     }
 ]

@@ -1,16 +1,13 @@
 [
     {
-        "text": "Select All that are correct for using this class:",
+        "text": "Select All that are correct for using this class: class Car { public $color; private $type; function getType() { return $this->type; } function setType($newType) { $this->type = $newType; } } $my_car = new Car(); $my_car->color = 'White';",
         "options": [
-            "class Car { public $color; private $type; function getType() { return $this->type; } function setType($newType) { $this->type = $newType; } } $my_car = new Car(); $my_car->color = 'White';",
             "$my_car->type = 'Coupe'; will throw an error.",
             "This Code is error free.",
             "To use this syntax $my_car->type = 'Coupe', property 'type' should be public.",
             "All options are incorrect."
         ],
-        "answer": [
-            "To use this syntax $my_car->type = 'Coupe', property 'type' should be public."
-        ]
+        "answer": "To use this syntax $my_car->type = 'Coupe', property 'type' should be public."
     },
     {
         "text": "Which of the following statement is incorrect:",
@@ -20,9 +17,7 @@
             "echo('Hello World')",
             "ECHO('Hello World');"
         ],
-        "answer": [
-            "ecHO('Hello World');"
-        ]
+        "answer": "ECHO('Hello World');"
     },
     {
         "text": "In a REST API, the Response code 500 indicates:",
@@ -32,9 +27,7 @@
             "The request hit a valid endpoint but was malformed and could not be completed",
             "Along with 403 Forbidden, represents a valid request, but one that would not be completed due to a lack of permissions"
         ],
-        "answer": [
-            "An error occurred on the server side"
-        ]
+        "answer": "An error occurred on the server side"
     },
     {
         "text": "We manually need to create a cookie to save the session id.",
@@ -42,9 +35,7 @@
             "True",
             "False"
         ],
-        "answer": [
-            "True"
-        ]
+        "answer": "False"
     },
     {
         "text": "A Relational Database Management System (RDBMS) is a server that manages data for you. The data is structured into tables, where each table has a number of columns, each of which has a name and a type.",
@@ -52,21 +43,17 @@
             "True",
             "False"
         ],
-        "answer": [
-            "True"
-        ]
+        "answer": "True"
     },
     {
-        "text": "Select all the correct statements:",
+        "text": "Select all the correct statements;",
         "options": [
             "getters and setters are used to access property 'type' as it is private.",
             "getters and setters are not used to access property 'type' as it is private. It will throw an error.",
             "Only way to access 'type' property is to make is public.",
             "all the statements are correct."
         ],
-        "answer": [
-            "Only way to access 'type' property is to make is public."
-        ]
+        "answer": "getters and setters are used to access property 'type' as it is private."
     },
     {
         "text": "Select all the statements that will not throw an error according the following code.",
@@ -76,20 +63,19 @@
             "echo $my_car->type;"
         ],
         "answer": [
-            "$my_car->color = 'White';"
+            "$my_car->color = 'White';",
+            "echo $my_car->type;"
         ]
     },
     {
-        "text": "In a REST API, the PUT request method is used for:",
+        "text": "In a REST API, the PUT request method is used for :",
         "options": [
             "Retrieve information about a resource or collection of resources",
             "Delete a resource or a collection of resources",
             "Create a new resource",
             "Update a resource with new data, or replace a collection of resources with new ones"
         ],
-        "answer": [
-            "Update a resource with new data, or replace a collection of resources with new ones"
-        ]
+        "answer": "Update a resource with new data, or replace a collection of resources with new ones"
     },
     {
         "text": "For deleting a cookie.",
@@ -99,9 +85,7 @@
             "Both statements are true",
             "Both statements are false."
         ],
-        "answer": [
-            "Both statements are true"
-        ]
+        "answer": "Both statements are true"
     },
     {
         "text": "It is not possible in php to declare the return type of a function.",
@@ -109,9 +93,7 @@
             "True",
             "False"
         ],
-        "answer": [
-            "True"
-        ]
+        "answer": "False"
     },
     {
         "text": "A WordPress plugin is",
@@ -121,9 +103,7 @@
             "A piece of software that 'plugs into' your WordPress site.",
             "All of above."
         ],
-        "answer": [
-            "All of above."
-        ]
+        "answer": "All of above."
     },
     {
         "text": "In 'php.ini' file, file_uploads directive should be set to on to allow file uploads",
@@ -131,9 +111,7 @@
             "True",
             "False"
         ],
-        "answer": [
-            "True"
-        ]
+        "answer": "True"
     },
     {
         "text": "Select all that are required to create connection with MySQL database using mysqli_connect() function.",
@@ -152,14 +130,12 @@
         ]
     },
     {
-        "text": "When we call session_destroy(), it removes the data store for the current session, but it doesn't remove the cookie from the browser cache. on subsequent visits to sessions-enabled pages, the user will have the same session ID as before the call to session_destroy(), but none of the data.",
+        "text": "When we call session_destroy(), it removes the data store for the current session, but it doesn't remove the cookie from the browser cache. on subsequent visits to sessionsenabled pages, the user will have the same session ID as before the call to session_destroy(), but none of the data.",
         "options": [
             "True",
             "False"
         ],
-        "answer": [
-            "True"
-        ]
+        "answer": "True"
     },
     {
         "text": "In a REST API, the POST request method is used for:",
@@ -169,22 +145,18 @@
             "Delete a resource or a collection of resources",
             "Create a new resource"
         ],
-        "answer": [
-            "Create a new resource"
-        ]
+        "answer": "Create a new resource"
     },
     {
-        "text": "Select all that can be compiled from the following script:",
+        "text": "Select all that can be compiled from the following script: $dbc = @mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME) OR die('Could not connect to MySQL: ' . mysqli_connect_error());",
         "options": [
-            "$dbc = @mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME) OR die ('Could not connect to MySQL: ' . mysqli_connect_error());",
-            "Connect to MySQL Database using these parameters : DB_HOST, DB_USER, DB_PASSWORD, DB NAME",
+            "Connect to MySQL Database using these parameters : DB_HOST, DB_USER, DB_PASSWORD, DB_NAME",
             "If there is an error, the php script will die and stop executing.",
             "Error message will be displayed.",
             "PHP script will continue to execute even if there is an error in creating a connection with database."
         ],
         "answer": [
-            "$dbc = @mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME) OR die ('Could not connect to MySQL: ' . mysqli_connect_error());",
-            "Connect to MySQL Database using these parameters : DB_HOST, DB_USER, DB_PASSWORD, DB NAME",
+            "Connect to MySQL Database using these parameters : DB_HOST, DB_USER, DB_PASSWORD, DB_NAME",
             "If there is an error, the php script will die and stop executing.",
             "Error message will be displayed."
         ]
@@ -195,9 +167,7 @@
             "True",
             "False"
         ],
-        "answer": [
-            "True"
-        ]
+        "answer": "True"
     },
     {
         "text": "Search Engines can be easily index Ajax. Pages can be indexed by Google as well as other search engines.",
@@ -205,9 +175,7 @@
             "True",
             "False"
         ],
-        "answer": [
-            "True"
-        ]
+        "answer": "False"
     },
     {
         "text": "Select all that are required to create a connection to database using PDO.",
@@ -232,9 +200,7 @@
             "None",
             "It passes the form parameters in the body of the HTTP request, leaving the URL untouched."
         ],
-        "answer": [
-            "Encodes the form parameters in the URL in a query string, which is indicated by the text"
-        ]
+        "answer": "Encodes the form parameters in the URL in a query string, which is indicated by the text"
     },
     {
         "text": "mysqli_num_rows(mysqli_result $result) is used to return the number of rows fetched from the server.",
@@ -242,30 +208,28 @@
             "True",
             "False"
         ],
-        "answer": [
-            "True"
-        ]
+        "answer": "True"
     },
     {
-        "text": "Select all that applies for mysqli_query()",
+        "text": "Select all that applies for mysqli_query():",
         "options": [
-            "This function accepts 2 arguments, 1. Database connection 2. Query to be executed.",
+            "This function accepts 2 arguments, Database connection, Query to be executed.",
             "This will not execute the query.",
             "It will execute the query if provided with correct arguments."
         ],
         "answer": [
-            "This function accepts 2 arguments, 1. Database connection 2. Query to be executed.",
+            "This function accepts 2 arguments, Database connection, Query to be executed.",
             "It will execute the query if provided with correct arguments."
         ]
     },
     {
         "text": "Match the File Opening Modes and their description.",
         "options": [
-            "W OR W2 Opens a file for write only. If file not exist then new file is created and if file already exists then contents of file is erased. -W",
-            "Opens file for read and write. If file not exist then new file is created and if file already exists then contents of file is erased. -W+"
+            "W OR W2: Opens a file for write only. If file not exist then new file is created and if file already exists then contents of file is erased.",
+            "W+: Opens file for read and write. If file not exist then new file is created and if file already exists then contents of file is erased."
         ],
         "answer": [
-            "W OR W2 Opens a file for write only. If file not exist then new file is created and if file already exists then contents of file is erased."
+            "W OR W2: Opens a file for write only. If file not exist then new file is created and if file already exists then contents of file is erased."
         ]
     },
     {
@@ -276,9 +240,7 @@
             "Server-Side Language",
             "None"
         ],
-        "answer": [
-            "Both"
-        ]
+        "answer": "Server-Side Language"
     },
     {
         "text": "The inspection process is called filtering, where only valid data is allowed to enter the application database.",
@@ -286,9 +248,7 @@
             "True",
             "False"
         ],
-        "answer": [
-            "True"
-        ]
+        "answer": "True"
     },
     {
         "text": "In a REST API, the Response code 400 indicates:",
@@ -298,9 +258,7 @@
             "The request hit a valid endpoint but was malformed and could not be completed",
             "An error occurred on the server side."
         ],
-        "answer": [
-            "The request hit a valid endpoint but was malformed and could not be completed"
-        ]
+        "answer": "The request hit a valid endpoint but was malformed and could not be completed"
     },
     {
         "text": "SELECT a.name, b.title FROM books b, authors a WHERE a.authorid = b.authorid;",
@@ -309,9 +267,7 @@
             "In the above query, 'a' and 'b' are the aliases for table authors and books respectively.",
             "This query has an error and will not execute."
         ],
-        "answer": [
-            "In the above query, 'a' and 'b' are the aliases for table authors and books respectively."
-        ]
+        "answer": "In the above query, 'a' and 'b' are the aliases for table authors and books respectively."
     },
     {
         "text": "Cross Site Scripting is",
@@ -321,9 +277,7 @@
             "An attacks that occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script, to a different end user",
             "Both"
         ],
-        "answer": [
-            "An attacks that occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script, to a different end user"
-        ]
+        "answer": "Both"
     },
     {
         "text": "Calling the debugDumpParams() method on the statement object prints a variety of information about the call including errors.",
@@ -331,9 +285,7 @@
             "True",
             "False"
         ],
-        "answer": [
-            "True"
-        ]
+        "answer": "False"
     },
     {
         "text": "The contents of data are read using fread()",
@@ -341,9 +293,7 @@
             "True",
             "False"
         ],
-        "answer": [
-            "True"
-        ]
+        "answer": "True"
     },
     {
         "text": "The first screen which will be seen when you log into the administration area of your blog which will display the overview of the website. It is a collection of gadgets.",
@@ -351,9 +301,7 @@
             "True",
             "False"
         ],
-        "answer": [
-            "True"
-        ]
+        "answer": "True"
     },
     {
         "text": "There is no limit on how many pages you create in WordPress.",
@@ -361,9 +309,7 @@
             "True",
             "False"
         ],
-        "answer": [
-            "True"
-        ]
+        "answer": "True"
     },
     {
         "text": "SQL Injection is",
@@ -373,32 +319,16 @@
             "Both",
             "A security vulnerability that allows an attacker to interfere wit the queries that an application makes to its database"
         ],
-        "answer": [
-            "A security vulnerability that allows an attacker to interfere wit the queries that an application makes to its database"
-        ]
-    },
-    {
-        "text": "Choose an option that defines the functioning of break statement in php.",
-        "options": [
-            "NONE",
-            "It causes the loop to skip the remainder of its body and immediately retest its condition prior to reiterating.",
-            "It terminates the for loop or switch statement and transfers execution to the statement immediately following the for loop or switch.",
-            "Both"
-        ],
-        "answer": [
-            "It causes the loop to skip the remainder of its body and immediately retest its condition prior to reiterating."
-        ]
+        "answer": "A security vulnerability that allows an attacker to interfere wit the queries that an application makes to its database"
     },
     {
         "text": "Choose the option with correct PHP code:",
         "options": [
-            "<?php echo 'Hello World! This is my first PHP Script!'; ?>",
-            "o<?php echo 'Hello World! This is my first PHP Script!'; ?>",
-            "<? echo 'Hello World! This is my first PHP Script!'; ?>",
-            "<?php echo 'Hello World! This is my first PHP Script!'; ?>"
+            "<?php echo 'Hello World! This is my first PHP Script!' ?>",
+            "<?php echo Hello World! This is my first PHP Script!; ?>",
+            "<? echo 'Hello World! This is my first PHP Script!' ?>",
+            "<?php echo 'Hello World! This is my first PHP Script!' ?>"
         ],
-        "answer": [
-            "<?php echo 'Hello World! This is my first PHP Script!'; ?>"
-        ]
+        "answer": "<?php echo 'Hello World! This is my first PHP Script!' ?>"
     }
 ]

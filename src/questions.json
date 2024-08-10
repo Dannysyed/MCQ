@@ -1,334 +1,277 @@
 [
-    {
-        "text": "Select All that are correct for using this class: class Car { public $color; private $type; function getType() { return $this->type; } function setType($newType) { $this->type = $newType; } } $my_car = new Car(); $my_car->color = 'White';",
-        "options": [
-            "$my_car->type = 'Coupe'; will throw an error.",
-            "This Code is error free.",
-            "To use this syntax $my_car->type = 'Coupe', property 'type' should be public.",
-            "All options are incorrect."
-        ],
-        "answer": "To use this syntax $my_car->type = 'Coupe', property 'type' should be public."
-    },
-    {
-        "text": "Which of the following statement is incorrect:",
-        "options": [
-            "echo('Hello World');",
-            "ecHO('Hello World');",
-            "echo('Hello World')",
-            "ECHO('Hello World');"
-        ],
-        "answer": "ECHO('Hello World');"
-    },
-    {
-        "text": "In a REST API, the Response code 500 indicates:",
-        "options": [
-            "The resource was not found (for example, attempting to delete an author with an ID that does not exist)",
-            "An error occurred on the server side",
-            "The request hit a valid endpoint but was malformed and could not be completed",
-            "Along with 403 Forbidden, represents a valid request, but one that would not be completed due to a lack of permissions"
-        ],
-        "answer": "An error occurred on the server side"
-    },
-    {
-        "text": "We manually need to create a cookie to save the session id.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": "False"
-    },
-    {
-        "text": "A Relational Database Management System (RDBMS) is a server that manages data for you. The data is structured into tables, where each table has a number of columns, each of which has a name and a type.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": "True"
-    },
-    {
-        "text": "Select all the correct statements;",
-        "options": [
-            "getters and setters are used to access property 'type' as it is private.",
-            "getters and setters are not used to access property 'type' as it is private. It will throw an error.",
-            "Only way to access 'type' property is to make is public.",
-            "all the statements are correct."
-        ],
-        "answer": "getters and setters are used to access property 'type' as it is private."
-    },
-    {
-        "text": "Select all the statements that will not throw an error according the following code.",
-        "options": [
-            "$my_car->type = 'SUV';",
-            "$my_car->color = 'White';",
-            "echo $my_car->type;"
-        ],
-        "answer": [
-            "$my_car->color = 'White';",
-            "echo $my_car->type;"
-        ]
-    },
-    {
-        "text": "In a REST API, the PUT request method is used for :",
-        "options": [
-            "Retrieve information about a resource or collection of resources",
-            "Delete a resource or a collection of resources",
-            "Create a new resource",
-            "Update a resource with new data, or replace a collection of resources with new ones"
-        ],
-        "answer": "Update a resource with new data, or replace a collection of resources with new ones"
-    },
-    {
-        "text": "For deleting a cookie.",
-        "options": [
-            "There is no specific function for deleting a cookie.",
-            "Instead we can overwrite the existing cookie with a blank value and set expiration time that is in the past.",
-            "Both statements are true",
-            "Both statements are false."
-        ],
-        "answer": "Both statements are true"
-    },
-    {
-        "text": "It is not possible in php to declare the return type of a function.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": "False"
-    },
-    {
-        "text": "A WordPress plugin is",
-        "options": [
-            "Plugins can extend existing functionality on your site.",
-            "Plugins can add new functionality.",
-            "A piece of software that 'plugs into' your WordPress site.",
-            "All of above."
-        ],
-        "answer": "All of above."
-    },
-    {
-        "text": "In 'php.ini' file, file_uploads directive should be set to on to allow file uploads",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": "True"
-    },
-    {
-        "text": "Select all that are required to create connection with MySQL database using mysqli_connect() function.",
-        "options": [
-            "DB_USER",
-            "DB_PASSWORD",
-            "DB_NAME",
-            "DB_DRIVERS",
-            "DB_HOST"
-        ],
-        "answer": [
-            "DB_USER",
-            "DB_PASSWORD",
-            "DB_NAME",
-            "DB_HOST"
-        ]
-    },
-    {
-        "text": "When we call session_destroy(), it removes the data store for the current session, but it doesn't remove the cookie from the browser cache. on subsequent visits to sessionsenabled pages, the user will have the same session ID as before the call to session_destroy(), but none of the data.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": "True"
-    },
-    {
-        "text": "In a REST API, the POST request method is used for:",
-        "options": [
-            "Update a resource with new data, or replace a collection of resources with new ones",
-            "Retrieve information about a resource or collection of resources",
-            "Delete a resource or a collection of resources",
-            "Create a new resource"
-        ],
-        "answer": "Create a new resource"
-    },
-    {
-        "text": "Select all that can be compiled from the following script: $dbc = @mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME) OR die('Could not connect to MySQL: ' . mysqli_connect_error());",
-        "options": [
-            "Connect to MySQL Database using these parameters : DB_HOST, DB_USER, DB_PASSWORD, DB_NAME",
-            "If there is an error, the php script will die and stop executing.",
-            "Error message will be displayed.",
-            "PHP script will continue to execute even if there is an error in creating a connection with database."
-        ],
-        "answer": [
-            "Connect to MySQL Database using these parameters : DB_HOST, DB_USER, DB_PASSWORD, DB_NAME",
-            "If there is an error, the php script will die and stop executing.",
-            "Error message will be displayed."
-        ]
-    },
-    {
-        "text": "When writing a WordPress plugin, the header comment must contain the Plugin Name.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": "True"
-    },
-    {
-        "text": "Search Engines can be easily index Ajax. Pages can be indexed by Google as well as other search engines.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": "False"
-    },
-    {
-        "text": "Select all that are required to create a connection to database using PDO.",
-        "options": [
-            "Database User",
-            "Database Password",
-            "Database Host",
-            "Charset",
-            "Database Name"
-        ],
-        "answer": [
-            "Database User",
-            "Database Password",
-            "Database Host",
-            "Database Name"
-        ]
-    },
-    {
-        "text": "GET request method",
-        "options": [
-            "Encodes the form parameters in the URL in a query string, which is indicated by the text",
-            "None",
-            "It passes the form parameters in the body of the HTTP request, leaving the URL untouched."
-        ],
-        "answer": "Encodes the form parameters in the URL in a query string, which is indicated by the text"
-    },
-    {
-        "text": "mysqli_num_rows(mysqli_result $result) is used to return the number of rows fetched from the server.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": "True"
-    },
-    {
-        "text": "Select all that applies for mysqli_query():",
-        "options": [
-            "This function accepts 2 arguments, Database connection, Query to be executed.",
-            "This will not execute the query.",
-            "It will execute the query if provided with correct arguments."
-        ],
-        "answer": [
-            "This function accepts 2 arguments, Database connection, Query to be executed.",
-            "It will execute the query if provided with correct arguments."
-        ]
-    },
-    {
-        "text": "Match the File Opening Modes and their description.",
-        "options": [
-            "W OR W2: Opens a file for write only. If file not exist then new file is created and if file already exists then contents of file is erased.",
-            "W+: Opens file for read and write. If file not exist then new file is created and if file already exists then contents of file is erased."
-        ],
-        "answer": [
-            "W OR W2: Opens a file for write only. If file not exist then new file is created and if file already exists then contents of file is erased."
-        ]
-    },
-    {
-        "text": "PHP programming language is :",
-        "options": [
-            "Both",
-            "Client-Side Language",
-            "Server-Side Language",
-            "None"
-        ],
-        "answer": "Server-Side Language"
-    },
-    {
-        "text": "The inspection process is called filtering, where only valid data is allowed to enter the application database.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": "True"
-    },
-    {
-        "text": "In a REST API, the Response code 400 indicates:",
-        "options": [
-            "The resource was not found (for example, attempting to delete an author with an ID that does not exist)",
-            "Along with 403 Forbidden, represents a valid request, but one that could not be completed due to a lack of permissions",
-            "The request hit a valid endpoint but was malformed and could not be completed",
-            "An error occurred on the server side."
-        ],
-        "answer": "The request hit a valid endpoint but was malformed and could not be completed"
-    },
-    {
-        "text": "SELECT a.name, b.title FROM books b, authors a WHERE a.authorid = b.authorid;",
-        "options": [
-            "Aliases are not allowed on table names but column names only.",
-            "In the above query, 'a' and 'b' are the aliases for table authors and books respectively.",
-            "This query has an error and will not execute."
-        ],
-        "answer": "In the above query, 'a' and 'b' are the aliases for table authors and books respectively."
-    },
-    {
-        "text": "Cross Site Scripting is",
-        "options": [
-            "None",
-            "A security vulnerability that allows an attacker to interfere with the queries that an application makes to its database",
-            "An attacks that occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script, to a different end user",
-            "Both"
-        ],
-        "answer": "Both"
-    },
-    {
-        "text": "Calling the debugDumpParams() method on the statement object prints a variety of information about the call including errors.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": "False"
-    },
-    {
-        "text": "The contents of data are read using fread()",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": "True"
-    },
-    {
-        "text": "The first screen which will be seen when you log into the administration area of your blog which will display the overview of the website. It is a collection of gadgets.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": "True"
-    },
-    {
-        "text": "There is no limit on how many pages you create in WordPress.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": "True"
-    },
-    {
-        "text": "SQL Injection is",
-        "options": [
-            "An attacks that occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script, to a different end user.",
-            "None",
-            "Both",
-            "A security vulnerability that allows an attacker to interfere wit the queries that an application makes to its database"
-        ],
-        "answer": "A security vulnerability that allows an attacker to interfere wit the queries that an application makes to its database"
-    },
-    {
-        "text": "Choose the option with correct PHP code:",
-        "options": [
-            "<?php echo 'Hello World! This is my first PHP Script!' ?>",
-            "<?php echo Hello World! This is my first PHP Script!; ?>",
-            "<? echo 'Hello World! This is my first PHP Script!' ?>",
-            "<?php echo 'Hello World! This is my first PHP Script!' ?>"
-        ],
-        "answer": "<?php echo 'Hello World! This is my first PHP Script!' ?>"
-    }
+  {
+    "text": "Which of the following attributes can you use to control which properties of an object can be set during model binding?",
+    "options": [
+      "Bind and BindNever",
+      "Bind and Ignore",
+      "Bind and Exclude",
+      "Set and Bind"
+    ],
+    "answer": "Bind and BindNever"
+  },
+  {
+    "text": "If you enter the following command in the Package Manager Console, what does it do? Add-Migration Initial",
+    "options": [
+      "It adds a migration file named Initial to the Migrations folder.",
+      "It creates a new database named Initial.",
+      "It removes all migration files from the Migrations folder.",
+      "It updates the database to the latest migration."
+    ],
+    "answer": "It adds a migration file named Initial to the Migrations folder."
+  },
+  {
+    "text": "For an entity class named Customer, which of the following properties would NOT be a primary key that's configured by convention and whose value is automatically generated?",
+    "options": [
+      "public int CustomerID { get; set; }",
+      "public string CustomerKey { get; set; }",
+      "public int CustomerKey { get; set; }",
+      "public int ID { get; set; }"
+    ],
+    "answer": "public int CustomerKey { get; set; }"
+  },
+  {
+    "text": "When a dynamic web page is requested, the web server passes the request to",
+    "options": [
+      "the application server",
+      "the browser",
+      "the client",
+      "the database"
+    ],
+    "answer": "the application server"
+  },
+  {
+    "text": "In the following URL pattern, which part is static? {controller}/{action}/{cat}/Page{num}/{sort?}",
+    "options": ["{controller}", "Page", "{num}", "{action}"],
+    "answer": "Page"
+  },
+  {
+    "text": "To create a persistent cookie, you must set the ______ property of the CookieOptions class before adding the cookie to the Response.Cookies collection.",
+    "options": ["Expires", "MaxAge", "Domain", "HttpOnly"],
+    "answer": "Expires"
+  },
+  {
+    "text": "If the following is coded above a property in a model class, what does it do? [Range(1, 10, ErrorMessage = \"Please enter a number between 1 and 10.\")]",
+    "options": [
+      "It specifies a range of acceptable values for the property.",
+      "It specifies a user-friendly error message if the property isn't within the specified range.",
+      "It prevents the property from being set.",
+      "It enforces the property to be an integer."
+    ],
+    "answer": "It specifies a user-friendly error message if the property isn't within the specified range."
+  },
+  {
+    "text": "Which of the following techniques does NOT run an app with debugging?",
+    "options": [
+      "Using the Start Without Debugging option from the Debug menu or using the keyboard shortcut Ctrl + F5 in Visual Studio.",
+      "Publishing the application and deploying it to a production environment where debugging is not enabled.",
+      "Running the application directly from the executable file or command line outside of the Visual Studio environment.",
+      "Starting the application with debugging using the Debug menu or the F5 shortcut."
+    ],
+    "answer": "Starting the application with debugging using the Debug menu or the F5 shortcut."
+  },
+  {
+    "text": "Which Visual Studio window can you use to execute a statement?",
+    "options": [
+      "the Solution Explorer",
+      "the Properties window",
+      "the Output window",
+      "the Immediate window"
+    ],
+    "answer": "the Immediate window"
+  },
+  {
+    "text": "A Razor layout",
+    "options": [
+      "stores view-specific code for each Razor view",
+      "provides a way to store HTML elements for multiple pages in a single file",
+      "defines the layout of a database",
+      "is used to handle form submissions"
+    ],
+    "answer": "provides a way to store HTML elements for multiple pages in a single file"
+  },
+  {
+    "text": "Given a DB context object named context that has a DbSet<Customer> property named Customers, which of the following returns a Customer object for the specified id parameter?",
+    "options": [
+      "context.Customers.Find(id)",
+      "context.Customers.GetById(id)",
+      "context.Customers.FirstOrDefault(id)",
+      "context.Customers.Select(id)"
+    ],
+    "answer": "context.Customers.Find(id)"
+  },
+  {
+    "text": "Within a form, a button's value attribute specifies the value that's posted to the server, and its ___ attribute specifies the name that the server can use to access this value.",
+    "options": ["id", "label", "name", "type"],
+    "answer": "name"
+  },
+  {
+    "text": "In a view, you can bind an HTML element to a property of the model object by using the",
+    "options": [
+      "asp-action tag helper",
+      "asp-controller tag helper",
+      "asp-for tag helper",
+      "asp-route tag helper"
+    ],
+    "answer": "asp-for tag helper"
+  },
+  {
+    "text": "From within a controller, you can work with session state items by using methods of an interface named",
+    "options": ["ISession", "IHttpContext", "ISessionState", "ISessionManager"],
+    "answer": "ISession"
+  },
+  {
+    "text": "To nest one layout inside another, the containing layout should",
+    "options": [
+      "set its Content property to the nested layout",
+      "set its Master property to the nested layout",
+      "set its Template property to the nested layout",
+      "set its Layout property to the nested layout"
+    ],
+    "answer": "set its Layout property to the nested layout"
+  },
+  {
+    "text": "Which of the following statements about Visual Studio Code is true?",
+    "options": [
+      "It is a web browser designed for ASP.NET Core MVC development.",
+      "It is a code editor that works well for ASP.NET Core MVC development.",
+      "It is a database management system.",
+      "It is an operating system."
+    ],
+    "answer": "It is a code editor that works well for ASP.NET Core MVC development."
+  },
+  {
+    "text": "Unlike a static web page, a dynamic web page",
+    "options": [
+      "is stored as a static file on the server",
+      "is generated by a web app that's running on an application server",
+      "does not interact with any server-side resources",
+      "cannot display data from a database"
+    ],
+    "answer": "is generated by a web app that's running on an application server"
+  },
+  {
+    "text": "The Exception Helper dialog is displayed if you run an app",
+    "options": [
+      "with debugging and an exception occurs",
+      "without debugging",
+      "and it crashes",
+      "in production mode"
+    ],
+    "answer": "with debugging and an exception occurs"
+  },
+  {
+    "text": "To commit insert, update, and delete operations on a DbSet<T> object to the database, what method of the DbContext class must you call?",
+    "options": ["SaveChanges()", "Commit()", "ApplyChanges()", "Persist()"],
+    "answer": "SaveChanges()"
+  },
+  {
+    "text": "Which of the following is a tag helper that displays validation messages?",
+    "options": [
+      "asp-validation-summary",
+      "asp-validation-for",
+      "asp-error-summary",
+      "asp-error-for"
+    ],
+    "answer": "asp-validation-summary"
+  },
+  {
+    "text": "Which of the following class attributes formats the element as a button with a solid background and light text?",
+    "options": [
+      "class=\"btn btn-secondary\"",
+      "class=\"btn btn-primary\"",
+      "class=\"btn btn-light\"",
+      "class=\"btn btn-link\""
+    ],
+    "answer": "class=\"btn btn-primary\""
+  },
+  {
+    "text": "The unit of work pattern provides a central class that allows several _____ objects to share a DB context.",
+    "options": ["repository", "entity", "model", "view"],
+    "answer": "repository"
+  },
+  {
+    "text": "A _____ cookie only lasts as long as the browsing session, and a _____ cookie can last through multiple browser sessions.",
+    "options": [
+      "session - persistent",
+      "transient - permanent",
+      "temporary - long-term",
+      "volatile - non-volatile"
+    ],
+    "answer": "session - persistent"
+  },
+  {
+    "text": "A view can access data stored in session state by using the property named",
+    "options": ["Session", "ViewState", "Context", "Request"],
+    "answer": "Context"
+  },
+  {
+    "text": "If a table named Patient has a one-to-many relationship with a table named Appointment, the Appointment table typically includes a _____ that relates it to the Patient table.",
+    "options": ["primary key", "foreign key", "unique key", "composite key"],
+    "answer": "foreign key"
+  },
+  {
+    "text": "Which of the following classes is NOT used to identify validation errors in an input element?",
+    "options": [
+      "class=\"form-control\"",
+      "class=\"is-valid\"",
+      "class=\"is-invalid\"",
+      "class=\"invalid-feedback\""
+    ],
+    "answer": "class=\"form-control\""
+  },
+  {
+    "text": "Which of the following C# methods uses LINQ to query a DbSet<T> object?",
+    "options": ["Where()", "SaveChanges()", "Attach()", "Remove()"],
+    "answer": "Where()"
+  },
+  {
+    "text": "To define the foreign key in an entity class, you can use",
+    "options": [
+      "the ForeignKey attribute",
+      "the Key attribute",
+      "the Required attribute",
+      "the Index attribute"
+    ],
+    "answer": "the ForeignKey attribute"
+  },
+  {
+    "text": "The C# Null-Conditional Operator is useful for",
+    "options": [
+      "avoiding null reference exceptions",
+      "setting default values",
+      "performing type checks",
+      "throwing exceptions"
+    ],
+    "answer": "avoiding null reference exceptions"
+  },
+  {
+    "text": "When using the async/await keywords in C#, it is important to",
+    "options": [
+      "avoid using them in main methods",
+      "never await a task",
+      "always use them in synchronous methods",
+      "use them to simplify asynchronous programming"
+    ],
+    "answer": "use them to simplify asynchronous programming"
+  },
+  {
+    "text": "Which of the following is NOT a lifecycle method of a React component?",
+    "options": [
+      "componentDidMount",
+      "render",
+      "shouldComponentUpdate",
+      "componentWillFetch"
+    ],
+    "answer": "componentWillFetch"
+  },
+  {
+    "text": "To handle state in a React component, you should",
+    "options": [
+      "use setState() in class components",
+      "directly modify this.state",
+      "use jQuery to manipulate the DOM",
+      "avoid state management"
+    ],
+    "answer": "use setState() in class components"
+  }
 ]

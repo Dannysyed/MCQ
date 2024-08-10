@@ -1,544 +1,227 @@
 [
   {
-    "text": "Which of the following attributes can you use to control which properties of an object can be set during model binding?",
-    "options": [
-      "Bind and BindNever",
-      "Bind and Ignore",
-      "Bind and Exclude",
-      "Set and Bind"
-    ],
-    "answer": "Bind and BindNever"
-  },
-  {
-    "text": "If you enter the following command in the Package Manager Console, what does it do? Add-Migration Initial",
-    "options": [
-      "It adds a migration file named Initial to the Migrations folder.",
-      "It creates a new database named Initial.",
-      "It removes all migration files from the Migrations folder.",
-      "It updates the database to the latest migration."
-    ],
-    "answer": "It adds a migration file named Initial to the Migrations folder."
-  },
-  {
-    "text": "For an entity class named Customer, which of the following properties would NOT be a primary key that's configured by convention and whose value is automatically generated?",
-    "options": [
-      "public int CustomerID { get; set; }",
-      "public string CustomerKey { get; set; }",
-      "public int CustomerKey { get; set; }",
-      "public int ID { get; set; }"
-    ],
-    "answer": "public int CustomerKey { get; set; }"
-  },
-  {
-    "text": "When a dynamic web page is requested, the web server passes the request to",
-    "options": [
-      "the application server",
-      "the browser",
-      "the client",
-      "the database"
-    ],
-    "answer": "the application server"
-  },
-  {
-    "text": "In the following URL pattern, which part is static? {controller}/{action}/{cat}/Page{num}/{sort?}",
-    "options": ["{controller}", "Page", "{num}", "{action}"],
-    "answer": "Page"
-  },
-  {
-    "text": "To create a persistent cookie, you must set the ______ property of the CookieOptions class before adding the cookie to the Response.Cookies collection.",
-    "options": ["Expires", "MaxAge", "Domain", "HttpOnly"],
-    "answer": "Expires"
-  },
-  {
-    "text": "If the following is coded above a property in a model class, what does it do? [Range(1, 10, ErrorMessage = \"Please enter a number between 1 and 10.\")]",
-    "options": [
-      "It specifies a range of acceptable values for the property.",
-      "It specifies a user-friendly error message if the property isn't within the specified range.",
-      "It prevents the property from being set.",
-      "It enforces the property to be an integer."
-    ],
-    "answer": "It specifies a user-friendly error message if the property isn't within the specified range."
-  },
-  {
-    "text": "Which of the following techniques does NOT run an app with debugging?",
-    "options": [
-      "Using the Start Without Debugging option from the Debug menu or using the keyboard shortcut Ctrl + F5 in Visual Studio.",
-      "Publishing the application and deploying it to a production environment where debugging is not enabled.",
-      "Running the application directly from the executable file or command line outside of the Visual Studio environment.",
-      "Starting the application with debugging using the Debug menu or the F5 shortcut."
-    ],
-    "answer": "Starting the application with debugging using the Debug menu or the F5 shortcut."
-  },
-  {
-    "text": "Which Visual Studio window can you use to execute a statement?",
-    "options": [
-      "the Solution Explorer",
-      "the Properties window",
-      "the Output window",
-      "the Immediate window"
-    ],
-    "answer": "the Immediate window"
-  },
-  {
-    "text": "A Razor layout",
-    "options": [
-      "stores view-specific code for each Razor view",
-      "provides a way to store HTML elements for multiple pages in a single file",
-      "defines the layout of a database",
-      "is used to handle form submissions"
-    ],
-    "answer": "provides a way to store HTML elements for multiple pages in a single file"
-  },
-  {
-    "text": "Given a DB context object named context that has a DbSet<Customer> property named Customers, which of the following returns a Customer object for the specified id parameter?",
-    "options": [
-      "context.Customers.Find(id)",
-      "context.Customers.GetById(id)",
-      "context.Customers.FirstOrDefault(id)",
-      "context.Customers.Select(id)"
-    ],
-    "answer": "context.Customers.Find(id)"
-  },
-  {
-    "text": "Within a form, a button's value attribute specifies the value that's posted to the server, and its ___ attribute specifies the name that the server can use to access this value.",
-    "options": ["id", "label", "name", "type"],
-    "answer": "name"
-  },
-  {
-    "text": "In a view, you can bind an HTML element to a property of the model object by using the",
-    "options": [
-      "asp-action tag helper",
-      "asp-controller tag helper",
-      "asp-for tag helper",
-      "asp-route tag helper"
-    ],
-    "answer": "asp-for tag helper"
-  },
-  {
-    "text": "From within a controller, you can work with session state items by using methods of an interface named",
-    "options": ["ISession", "IHttpContext", "ISessionState", "ISessionManager"],
-    "answer": "ISession"
-  },
-  {
-    "text": "To nest one layout inside another, the containing layout should",
-    "options": [
-      "set its Content property to the nested layout",
-      "set its Master property to the nested layout",
-      "set its Template property to the nested layout",
-      "set its Layout property to the nested layout"
-    ],
-    "answer": "set its Layout property to the nested layout"
-  },
-  {
-    "text": "Which of the following statements about Visual Studio Code is true?",
-    "options": [
-      "It is a web browser designed for ASP.NET Core MVC development.",
-      "It is a code editor that works well for ASP.NET Core MVC development.",
-      "It is a database management system.",
-      "It is an operating system."
-    ],
-    "answer": "It is a code editor that works well for ASP.NET Core MVC development."
-  },
-  {
-    "text": "Unlike a static web page, a dynamic web page",
-    "options": [
-      "is stored as a static file on the server",
-      "is generated by a web app that's running on an application server",
-      "does not interact with any server-side resources",
-      "cannot display data from a database"
-    ],
-    "answer": "is generated by a web app that's running on an application server"
-  },
-  {
-    "text": "The Exception Helper dialog is displayed if you run an app",
-    "options": [
-      "with debugging and an exception occurs",
-      "without debugging",
-      "and it crashes",
-      "in production mode"
-    ],
-    "answer": "with debugging and an exception occurs"
-  },
-  {
-    "text": "To commit insert, update, and delete operations on a DbSet<T> object to the database, what method of the DbContext class must you call?",
-    "options": ["SaveChanges()", "Commit()", "ApplyChanges()", "Persist()"],
-    "answer": "SaveChanges()"
-  },
-  {
-    "text": "Which of the following is a tag helper that displays validation messages?",
-    "options": [
-      "asp-validation-summary",
-      "asp-validation-for",
-      "asp-error-summary",
-      "asp-error-for"
-    ],
-    "answer": "asp-validation-summary"
-  },
-  {
-    "text": "Which of the following class attributes formats the element as a button with a solid background and light text?",
-    "options": [
-      "class=\"btn btn-secondary\"",
-      "class=\"btn btn-primary\"",
-      "class=\"btn btn-light\"",
-      "class=\"btn btn-link\""
-    ],
-    "answer": "class=\"btn btn-primary\""
-  },
-  {
-    "text": "The unit of work pattern provides a central class that allows several _____ objects to share a DB context.",
-    "options": ["repository", "entity", "model", "view"],
-    "answer": "repository"
-  },
-  {
-    "text": "A _____ cookie only lasts as long as the browsing session, and a _____ cookie can last through multiple browser sessions.",
-    "options": [
-      "session - persistent",
-      "transient - permanent",
-      "temporary - long-term",
-      "volatile - non-volatile"
-    ],
-    "answer": "session - persistent"
-  },
-  {
-    "text": "A view can access data stored in session state by using the property named",
-    "options": ["Session", "ViewState", "Context", "Request"],
-    "answer": "Context"
-  },
-  {
-    "text": "If a table named Patient has a one-to-many relationship with a table named Appointment, the Appointment table typically includes a _____ that relates it to the Patient table.",
-    "options": ["primary key", "foreign key", "unique key", "composite key"],
-    "answer": "foreign key"
-  },
-  {
-    "text": "Which of the following classes is NOT used to identify validation errors in an input element?",
-    "options": [
-      "class=\"form-control\"",
-      "class=\"is-valid\"",
-      "class=\"is-invalid\"",
-      "class=\"invalid-feedback\""
-    ],
-    "answer": "class=\"form-control\""
-  },
-  {
-    "text": "Which of the following C# methods uses LINQ to query a DbSet<T> object?",
-    "options": ["Where()", "SaveChanges()", "Attach()", "Remove()"],
-    "answer": "Where()"
-  },
-  {
-    "text": "To define the foreign key in an entity class, you can use",
-    "options": [
-      "the ForeignKey attribute",
-      "the Key attribute",
-      "the Required attribute",
-      "the Index attribute"
-    ],
-    "answer": "the ForeignKey attribute"
-  },
-  {
-    "text": "The C# Null-Conditional Operator is useful for",
-    "options": [
-      "avoiding null reference exceptions",
-      "setting default values",
-      "performing type checks",
-      "throwing exceptions"
-    ],
-    "answer": "avoiding null reference exceptions"
-  },
-  {
-    "text": "When using the async/await keywords in C#, it is important to",
-    "options": [
-      "avoid using them in main methods",
-      "never await a task",
-      "always use them in synchronous methods",
-      "use them to simplify asynchronous programming"
-    ],
-    "answer": "use them to simplify asynchronous programming"
-  },
-  {
-    "text": "Which of the following is NOT a lifecycle method of a React component?",
-    "options": [
-      "componentDidMount",
-      "render",
-      "shouldComponentUpdate",
-      "componentWillFetch"
-    ],
-    "answer": "componentWillFetch"
-  },
-  {
-    "text": "To handle state in a React component, you should",
-    "options": [
-      "use setState() in class components",
-      "directly modify this.state",
-      "use jQuery to manipulate the DOM",
-      "avoid state management"
-    ],
-    "answer": "use setState() in class components"
-  },
-  {
-    "text": "How can adding a slug to a URL make the URL more user-friendly?",
-    "options": [
-      "It obfuscates the URL for security reasons.",
-      "It usually makes it easier for a user to predict the content of the page.",
-      "It shortens the URL length.",
-      "It removes the domain name from the URL."
-    ],
-    "answer": [
-      "It usually makes it easier for a user to predict the content of the page."
-    ]
-  },
-  {
-    "text": "The unit of work pattern provides a central class that allows several objects to share a context. What is it called?",
-    "options": ["Singleton", "Repository", "Factory", "Observer"],
-    "answer": ["Repository"]
-  },
-  {
-    "text": "Which of the following statements about ASP.NET Core middleware components is false?",
-    "options": [
-      "They must be configured the same for all web apps.",
-      "They handle HTTP requests and responses.",
-      "They can be added to the pipeline using the app.Use method.",
-      "They are executed in the order they are registered."
-    ],
-    "answer": ["They must be configured the same for all web apps."]
-  },
-  {
-    "text": "When you run an app with debugging and it encounters a tracepoint, the app typically",
-    "options": [
-      "enters run mode",
-      "enters break mode",
-      "logs a message",
-      "exits immediately"
-    ],
-    "answer": ["enters break mode"]
-  },
-  {
-    "text": "When you run an app with debugging and it encounters a breakpoint, the app",
-    "options": [
-      "enters run mode",
-      "enters break mode",
-      "logs a message",
-      "continues running without stopping"
-    ],
-    "answer": ["enters break mode"]
-  },
-  {
-    "text": "To create a tracepoint that logs a message to the Output window, you can",
-    "options": [
-      "right-click the statement and select Breakpoint > Insert Tracepoint, and use the Breakpoint Settings window to specify the message.",
-      "press F9 on the keyboard.",
-      "use the console log function in the code.",
-      "add a log message to the code manually."
-    ],
-    "answer": [
-      "right-click the statement and select Breakpoint > Insert Tracepoint, and use the Breakpoint Settings window to specify the message."
-    ]
-  },
-  {
-    "text": "To decrease reliance on lower-level techniques while working with session state, you can add ____ to the ISession interface that allows you to store and retrieve .NET objects.",
-    "options": ["properties", "methods", "extension methods", "fields"],
-    "answer": ["extension methods"]
-  },
-  {
-    "text": "A CSS style sheet",
-    "options": [
-      "provides a way to store CSS formatting for multiple pages in a single file",
-      "is used only for a single webpage",
-      "is not compatible with HTML",
-      "only works with external JavaScript"
-    ],
-    "answer": [
-      "provides a way to store CSS formatting for multiple pages in a single file"
-    ]
-  },
-  {
-    "text": "Which of the following statements about Visual Studio Code is true?",
-    "options": [
-      "It only supports Python development.",
-      "It is a code editor that works well for ASP.NET Core MVC development.",
-      "It is a web browser.",
-      "It is an online IDE."
-    ],
-    "answer": [
-      "It is a code editor that works well for ASP.NET Core MVC development."
-    ]
-  },
-  {
-    "text": "A common option for running unit tests in Visual Studio is to use the",
-    "options": [
-      "Solution Explorer",
-      "Test Explorer",
-      "Server Explorer",
-      "Object Explorer"
-    ],
-    "answer": ["Test Explorer"]
-  },
-  {
-    "text": "You can use the GetFathlyAction() method of the LinkGenerator class to generate",
-    "options": [
-      "A random number",
-      "A route-based URL",
-      "A timestamp",
-      "A user interface element"
-    ],
-    "answer": ["A route-based URL"]
-  },
-  {
     "text": "Authorization refers to the process of",
     "options": [
-      "identifying a user",
-      "granting a user access to an app",
-      "encrypting user data",
-      "tracking user activities"
+      "validating the identity of the user",
+      "supplying a username and password",
+      "issuing or accepting identities from other websites",
+      "granting a user access to an app"
     ],
-    "answer": ["granting a user access to an app"]
+    "answer": "granting a user access to an app"
   },
   {
-    "text": "To add the Identity tables to the DB context class, you can code an entity class named User that inherits from IdentityUser class and a DB context class that",
+    "text": "Given a SignInManager<User> object named signInManager and a User object named user, which of the following attempts to log in the user?",
     "options": [
-      "inherits from DbContext class",
-      "inherits from IdentityUser class",
-      "inherits from Identity DbContext<User> class",
-      "inherits from UserManager class"
+      "signInManager.LogIn(user);",
+      "signInManager.SignIn(user, isPersistent: false);",
+      "await signInManager.SignInAsync(user, isPersistent: false);",
+      "await signInManager.LogInAsync(user);"
     ],
-    "answer": ["inherits from Identity DbContext<User> class"]
+    "answer": "await signInManager.SignInAsync(user, isPersistent: false);"
   },
   {
-    "text": "Which one of the following CLI commands adds the NuGet package named Microsoft Entity FrameworkCore SqlServer?",
+    "text": "When you run an ASP.NET Core app with debugging and it encounters a breakpoint, it enters ________________ before it executes the statement on which the breakpoint is set.",
+    "options": ["step mode", "zen mode", "break mode", "debug mode"],
+    "answer": "break mode"
+  },
+  {
+    "text": "The command-line interface (CLI) can use the ____________ tool to manage client-side libraries.",
+    "options": ["LibMan", "NuGet", "EF", "GUI"],
+    "answer": "LibMan"
+  },
+  {
+    "text": "Which method of the UserManager<T> class can you use to create a user in the AspNetUsers table?",
+    "options": ["Create()", "CreateAsync()", "CreateUser()", "SaveUser()"],
+    "answer": "CreateAsync()"
+  },
+  {
+    "text": "MVC inspects the constructors of the objects it is preparing to inject and, if necessary, injects any objects needed by those objects in a process known as",
     "options": [
-      "dotnet add package Microsoft.EntityFrameworkCore.SqlServer",
-      "npm install Microsoft.EntityFrameworkCore.SqlServer",
-      "install-package Microsoft.EntityFrameworkCore.SqlServer",
-      "nuget install Microsoft.EntityFrameworkCore.SqlServer"
-    ],
-    "answer": ["dotnet add package Microsoft.EntityFrameworkCore.SqlServer"]
-  },
-  {
-    "text": "Which of the following is NOT an advantage of using unit testing?",
-    "options": [
-      "It helps identify bugs in the code.",
-      "It automatically fixes bugs when it finds them.",
-      "It provides documentation of the code behavior.",
-      "It allows for test-driven development."
-    ],
-    "answer": ["It automatically fixes bugs when it finds them."]
-  },
-  {
-    "text": "Which of the following class declarations is for a custom tag helper for a standard HTML element?",
-    "options": [
-      "public class ButtonTaghelper : TagHelper",
-      "public class CustomHelper : HtmlElement",
-      "public class FormHelper : HtmlTag",
-      "public class InputTag : WebElement"
-    ],
-    "answer": ["public class ButtonTaghelper : TagHelper"]
-  },
-  {
-    "text": "You can use roles to",
-    "options": [
-      "create new users",
-      "apply the same access rules to a group of users",
-      "encrypt user data",
-      "log user activities"
-    ],
-    "answer": ["apply the same access rules to a group of users"]
-  },
-  {
-    "text": "Which keystroke can you use with VS Code to run an ASP.NET Core app without debugging?",
-    "options": ["Ctrl + F5", "Ctrl + Shift + B", "Ctrl + Alt + F5", "Ctrl + D"],
-    "answer": ["Ctrl + F5"]
-  },
-  {
-    "text": "If a tag helper class contains the following property, what HTML attribute can you use to send data to that property?",
-    "code": "[HtmlAttributeName(\"my-in-number\")] public int Hinge { get; set; }",
-    "options": [
-      "my-in-number",
-      "data-my-in-number",
-      "hinge",
-      "int-my-in-number"
-    ],
-    "answer": ["my-in-number"]
-  },
-  {
-    "text": "Who can access the pages displayed by the Account controller shown below?",
-    "code": "[Authorize] public class AccountController : Controller {}",
-    "options": [
-      "Only users who are logged in",
-      "All users",
-      "Only administrators",
-      "No users"
-    ],
-    "answer": ["Only users who are logged in"]
-  },
-  {
-    "text": "Who can access the pages displayed by the List action in the Customer controller shown below?",
-    "code": "[Authorize(Roles = \"Manager\")] public IActionResult List() {}",
-    "options": [
-      "Only users who are logged in",
-      "Only administrators",
-      "Only users who are logged in and members of the Manager role",
-      "All users"
-    ],
-    "answer": ["Only users who are logged in and members of the Manager role"]
-  },
-  {
-    "text": "MVC inspects the constructors of the objects it is preparing to inject and, if necessary, injects any object needed by those objects in a process known as",
-    "options": [
-      "dependency injection",
+      "dependency attribution",
+      "core attribution",
       "dependency chaining",
-      "constructor analysis",
-      "service location"
+      "coupling"
     ],
-    "answer": ["dependency chaining"]
+    "answer": "dependency chaining"
   },
   {
-    "text": "Which of the following is NOT a dependency life cycle?",
-    "options": ["Singleton", "Transient", "Scoped", "Injectable"],
-    "answer": ["Injectable"]
-  },
-  {
-    "text": "When you run an ASP.NET Core app with debugging and it encounters a breakpoint, it enters ______ before it executes the statement on which the breakpoint is set.",
-    "options": ["debugging mode", "break mode", "trace mode", "run mode"],
-    "answer": ["break mode"]
-  },
-  {
-    "text": "To display the output from a ViewData dictionary, you can",
+    "text": "To configure dependency injection, which method of the Startup.cs file should contain the code that maps the dependencies?",
     "options": [
-      "use @ViewData[\"key\"] in a view",
-      "use console.log(ViewData[\"key\"]); in the view",
-      "use <% ViewData[\"key\"] %> in a view",
-      "use data-binding expressions like {{ViewData[\"key\"]}}"
+      "ConfigureServices()",
+      "DependencyInject()",
+      "the constructor",
+      "SingletonInject()"
     ],
-    "answer": ["use @ViewData[\"key\"] in a view"]
+    "answer": "ConfigureServices()"
   },
   {
-    "text": "Who can access the pages displayed by the Account controller shown below?",
-    "code": "[Authorize] public class AccountController : Controller {}",
+    "text": "A partial view typically contains _________________ that's used by multiple views.",
     "options": [
-      "Only users who are logged in",
+      "view components",
+      "entity classes",
+      "CSS",
+      "HTML and Razor code"
+    ],
+    "answer": "HTML and Razor code"
+  },
+  {
+    "text": "Given a Book object named book, which of the following passes the Book object as the model for the partial view named _BookLinkPartial?",
+    "options": [
+      "<partial name=\"_BookLinkPartial\" model=\"@book\" />",
+      "<partial name=\"_BookLinkPartial\" viewData=\"@book\" />",
+      "<partial name=\"BookLinkPartial.cshtml\" model=\"@book\" />",
+      "<partial name=\"BookLinkPartial.cshtml\" viewData=\"@book\" />"
+    ],
+    "answer": "<partial name=\"_BookLinkPartial\" model=\"@book\" />"
+  },
+  {
+    "text": "Which of the following files will MVC use for the following partial tag helper?\n<partial name=\"_ProductDisplayPartial\" />",
+    "options": [
+      "/Views/ProductDisplay/_Partial.cshtml",
+      "/Views/Product/Display.cshtml",
+      "/Views/Shared/_ProductDisplayPartial.cshtml",
+      "/Views/Shared/ProductDisplay.cshtml"
+    ],
+    "answer": "/Views/Shared/_ProductDisplayPartial.cshtml"
+  },
+  {
+    "text": "You can use the GetPathByAction() method of the LinkGenerator class to generate",
+    "options": [
+      "a partial view",
+      "a route-based URL",
+      "an absolute URL",
+      "a view component"
+    ],
+    "answer": "a route-based URL"
+  },
+  {
+    "text": "Which HTML elements does the following tag helper class apply to?\n[HtmlTargetElement(\"input\", ParentTag = \"form\")]\npublic class MyInputTagHelper : TagHelper {...}",
+    "options": [
+      "<input> or <form> elements",
+      "<input> elements coded within a form",
+      "<my-input> or <form> elements",
+      "<my-input> elements coded within a form"
+    ],
+    "answer": "<input> elements coded within a form"
+  },
+  {
+    "text": "To add the Identity tables to the DB context class, you can code an entity class named User that inherits the IdentityUser class and a DB context class that",
+    "options": [
+      "includes a DbSet<User> property",
+      "includes a DbSet<IdentityUser> property",
+      "inherits the IdentityDbContext<User> class",
+      "inherits the DbContext<User> class"
+    ],
+    "answer": "inherits the IdentityDbContext<User> class"
+  },
+  {
+    "text": "A common design pattern used for unit tests is the",
+    "options": [
+      "Arrange/Act/Assert pattern",
+      "Unit Test pattern",
+      "Test Driven Development pattern",
+      "Articulation pattern"
+    ],
+    "answer": "Arrange/Act/Assert pattern"
+  },
+  {
+    "text": "Which one of the following CLI commands creates a new ASP.NET Core app that's based on the Model-View-Controller template?",
+    "options": [
+      "dotnet new asp-core",
+      "dotnet new empty",
+      "dotnet new mvc",
+      "dotnet new model-view-controller"
+    ],
+    "answer": "dotnet new mvc"
+  },
+  {
+    "text": "Who can access the pages displayed by the List action in the Customer controller shown below?\npublic class CustomerController : Controller\n{\n    [Authorize(Roles = \"Manager\")]\n    [HttpGet]\n    public IActionResult List() {...}\n}",
+    "options": [
       "All users",
-      "Only administrators",
-      "No users"
+      "Anonymous users",
+      "Only users who are logged in",
+      "Only users who are logged in and members of the Manager role"
     ],
-    "answer": ["Only users who are logged in"]
+    "answer": "Only users who are logged in and members of the Manager role"
   },
   {
-    "text": "You can use the GetFathlyAction() method of the LinkGenerator class to generate",
+    "text": "If a tag helper class contains the following property, what HTML attribute can you use to send data to that property?\n[HtmlAttributeName(\"my-min-number\")]\npublic int Min { get; set; }",
     "options": [
-      "A random number",
-      "A route-based URL",
-      "A timestamp",
-      "A user interface element"
+      "my-min-number=\"10\"",
+      "min-number=\"10\"",
+      "number=\"10\"",
+      "min=\"10\""
     ],
-    "answer": ["A route-based URL"]
+    "answer": "my-min-number=\"10\""
   },
   {
-    "text": "Which of the following is NOT an advantage of using unit testing?",
+    "text": "Which method can you use to add the Identity service to the HTTP request and response pipeline?",
     "options": [
-      "It helps identify bugs in the code.",
-      "It automatically fixes bugs when it finds them.",
-      "It provides documentation of the code behavior.",
-      "It allows for test-driven development."
+      "AddIdentity()",
+      "UseAuthentication()",
+      "UseAuthorization()",
+      "ConfigurePassword()"
     ],
-    "answer": ["It automatically fixes bugs when it finds them."]
+    "answer": "UseAuthentication()"
+  },
+  {
+    "text": "When you run VS Code on Windows, you can use the command line provided by VS Code's ____________ window to execute CLI commands.",
+    "options": ["Terminal", "Console", "Output", "Debug"],
+    "answer": "Terminal"
+  },
+  {
+    "text": "Which of the following is a tag helper element?",
+    "options": ["asp-controller", "asp-action", "asp-area", "environment"],
+    "answer": "asp-controller"
+  },
+  {
+    "text": "Which of the following is a technique that is used in ASP.NET Core MVC for maintaining state but is not commonly available outside of this framework?",
+    "options": ["hidden fields", "cookies", "routes", "query strings"],
+    "answer": "hidden fields"
+  },
+  {
+    "text": "What does the following code represent?\n@{\n  string myName = \"John\";\n  ViewBag.Name = myName;\n}",
+    "options": [
+      "A Razor expression",
+      "A Razor code block",
+      "A Razor foreach loop",
+      "A Razor if statement"
+    ],
+    "answer": "A Razor code block"
+  },
+  {
+    "text": "With Visual Studio, what tool can you use to add the packages needed to work with EF Core?",
+    "options": [
+      "Library Manager",
+      "NuGet Package Manager",
+      "SQL Server Object Explorer",
+      "Package Manager Console"
+    ],
+    "answer": "Package Manager Console"
+  },
+  {
+    "text": "Which ValidateSummary enum value can you use to display model-level validation messages, not property-level messages?",
+    "options": ["All", "None", "NoProperty", "ModelOnly"],
+    "answer": "ModelOnly"
+  },
+  {
+    "text": "What method of the ModelState class can you use to add a validation message?",
+    "options": [
+      "AddModelError()",
+      "AddErrorMessage()",
+      "AddValidationMessage()",
+      "SetError()"
+    ],
+    "answer": "AddModelError()"
+  },
+  {
+    "text": "Which of the following commands does not require an HTTP request?",
+    "options": ["Post", "Get", "Patch", "Put"],
+    "answer": "Get"
+  },
+  {
+    "text": "To use EF Core in a project, you should install the NuGet package for the ____________ provider.",
+    "options": ["SQL Server", "SQLite", "MySQL", "PostgreSQL"],
+    "answer": "SQL Server"
   }
 ]

@@ -273,5 +273,272 @@
       "avoid state management"
     ],
     "answer": "use setState() in class components"
+  },
+  {
+    "text": "How can adding a slug to a URL make the URL more user-friendly?",
+    "options": [
+      "It obfuscates the URL for security reasons.",
+      "It usually makes it easier for a user to predict the content of the page.",
+      "It shortens the URL length.",
+      "It removes the domain name from the URL."
+    ],
+    "answer": [
+      "It usually makes it easier for a user to predict the content of the page."
+    ]
+  },
+  {
+    "text": "The unit of work pattern provides a central class that allows several objects to share a context. What is it called?",
+    "options": ["Singleton", "Repository", "Factory", "Observer"],
+    "answer": ["Repository"]
+  },
+  {
+    "text": "Which of the following statements about ASP.NET Core middleware components is false?",
+    "options": [
+      "They must be configured the same for all web apps.",
+      "They handle HTTP requests and responses.",
+      "They can be added to the pipeline using the app.Use method.",
+      "They are executed in the order they are registered."
+    ],
+    "answer": ["They must be configured the same for all web apps."]
+  },
+  {
+    "text": "When you run an app with debugging and it encounters a tracepoint, the app typically",
+    "options": [
+      "enters run mode",
+      "enters break mode",
+      "logs a message",
+      "exits immediately"
+    ],
+    "answer": ["enters break mode"]
+  },
+  {
+    "text": "When you run an app with debugging and it encounters a breakpoint, the app",
+    "options": [
+      "enters run mode",
+      "enters break mode",
+      "logs a message",
+      "continues running without stopping"
+    ],
+    "answer": ["enters break mode"]
+  },
+  {
+    "text": "To create a tracepoint that logs a message to the Output window, you can",
+    "options": [
+      "right-click the statement and select Breakpoint > Insert Tracepoint, and use the Breakpoint Settings window to specify the message.",
+      "press F9 on the keyboard.",
+      "use the console log function in the code.",
+      "add a log message to the code manually."
+    ],
+    "answer": [
+      "right-click the statement and select Breakpoint > Insert Tracepoint, and use the Breakpoint Settings window to specify the message."
+    ]
+  },
+  {
+    "text": "To decrease reliance on lower-level techniques while working with session state, you can add ____ to the ISession interface that allows you to store and retrieve .NET objects.",
+    "options": ["properties", "methods", "extension methods", "fields"],
+    "answer": ["extension methods"]
+  },
+  {
+    "text": "A CSS style sheet",
+    "options": [
+      "provides a way to store CSS formatting for multiple pages in a single file",
+      "is used only for a single webpage",
+      "is not compatible with HTML",
+      "only works with external JavaScript"
+    ],
+    "answer": [
+      "provides a way to store CSS formatting for multiple pages in a single file"
+    ]
+  },
+  {
+    "text": "Which of the following statements about Visual Studio Code is true?",
+    "options": [
+      "It only supports Python development.",
+      "It is a code editor that works well for ASP.NET Core MVC development.",
+      "It is a web browser.",
+      "It is an online IDE."
+    ],
+    "answer": [
+      "It is a code editor that works well for ASP.NET Core MVC development."
+    ]
+  },
+  {
+    "text": "A common option for running unit tests in Visual Studio is to use the",
+    "options": [
+      "Solution Explorer",
+      "Test Explorer",
+      "Server Explorer",
+      "Object Explorer"
+    ],
+    "answer": ["Test Explorer"]
+  },
+  {
+    "text": "You can use the GetFathlyAction() method of the LinkGenerator class to generate",
+    "options": [
+      "A random number",
+      "A route-based URL",
+      "A timestamp",
+      "A user interface element"
+    ],
+    "answer": ["A route-based URL"]
+  },
+  {
+    "text": "Authorization refers to the process of",
+    "options": [
+      "identifying a user",
+      "granting a user access to an app",
+      "encrypting user data",
+      "tracking user activities"
+    ],
+    "answer": ["granting a user access to an app"]
+  },
+  {
+    "text": "To add the Identity tables to the DB context class, you can code an entity class named User that inherits from IdentityUser class and a DB context class that",
+    "options": [
+      "inherits from DbContext class",
+      "inherits from IdentityUser class",
+      "inherits from Identity DbContext<User> class",
+      "inherits from UserManager class"
+    ],
+    "answer": ["inherits from Identity DbContext<User> class"]
+  },
+  {
+    "text": "Which one of the following CLI commands adds the NuGet package named Microsoft Entity FrameworkCore SqlServer?",
+    "options": [
+      "dotnet add package Microsoft.EntityFrameworkCore.SqlServer",
+      "npm install Microsoft.EntityFrameworkCore.SqlServer",
+      "install-package Microsoft.EntityFrameworkCore.SqlServer",
+      "nuget install Microsoft.EntityFrameworkCore.SqlServer"
+    ],
+    "answer": ["dotnet add package Microsoft.EntityFrameworkCore.SqlServer"]
+  },
+  {
+    "text": "Which of the following is NOT an advantage of using unit testing?",
+    "options": [
+      "It helps identify bugs in the code.",
+      "It automatically fixes bugs when it finds them.",
+      "It provides documentation of the code behavior.",
+      "It allows for test-driven development."
+    ],
+    "answer": ["It automatically fixes bugs when it finds them."]
+  },
+  {
+    "text": "Which of the following class declarations is for a custom tag helper for a standard HTML element?",
+    "options": [
+      "public class ButtonTaghelper : TagHelper",
+      "public class CustomHelper : HtmlElement",
+      "public class FormHelper : HtmlTag",
+      "public class InputTag : WebElement"
+    ],
+    "answer": ["public class ButtonTaghelper : TagHelper"]
+  },
+  {
+    "text": "You can use roles to",
+    "options": [
+      "create new users",
+      "apply the same access rules to a group of users",
+      "encrypt user data",
+      "log user activities"
+    ],
+    "answer": ["apply the same access rules to a group of users"]
+  },
+  {
+    "text": "Which keystroke can you use with VS Code to run an ASP.NET Core app without debugging?",
+    "options": ["Ctrl + F5", "Ctrl + Shift + B", "Ctrl + Alt + F5", "Ctrl + D"],
+    "answer": ["Ctrl + F5"]
+  },
+  {
+    "text": "If a tag helper class contains the following property, what HTML attribute can you use to send data to that property?",
+    "code": "[HtmlAttributeName(\"my-in-number\")] public int Hinge { get; set; }",
+    "options": [
+      "my-in-number",
+      "data-my-in-number",
+      "hinge",
+      "int-my-in-number"
+    ],
+    "answer": ["my-in-number"]
+  },
+  {
+    "text": "Who can access the pages displayed by the Account controller shown below?",
+    "code": "[Authorize] public class AccountController : Controller {}",
+    "options": [
+      "Only users who are logged in",
+      "All users",
+      "Only administrators",
+      "No users"
+    ],
+    "answer": ["Only users who are logged in"]
+  },
+  {
+    "text": "Who can access the pages displayed by the List action in the Customer controller shown below?",
+    "code": "[Authorize(Roles = \"Manager\")] public IActionResult List() {}",
+    "options": [
+      "Only users who are logged in",
+      "Only administrators",
+      "Only users who are logged in and members of the Manager role",
+      "All users"
+    ],
+    "answer": ["Only users who are logged in and members of the Manager role"]
+  },
+  {
+    "text": "MVC inspects the constructors of the objects it is preparing to inject and, if necessary, injects any object needed by those objects in a process known as",
+    "options": [
+      "dependency injection",
+      "dependency chaining",
+      "constructor analysis",
+      "service location"
+    ],
+    "answer": ["dependency chaining"]
+  },
+  {
+    "text": "Which of the following is NOT a dependency life cycle?",
+    "options": ["Singleton", "Transient", "Scoped", "Injectable"],
+    "answer": ["Injectable"]
+  },
+  {
+    "text": "When you run an ASP.NET Core app with debugging and it encounters a breakpoint, it enters ______ before it executes the statement on which the breakpoint is set.",
+    "options": ["debugging mode", "break mode", "trace mode", "run mode"],
+    "answer": ["break mode"]
+  },
+  {
+    "text": "To display the output from a ViewData dictionary, you can",
+    "options": [
+      "use @ViewData[\"key\"] in a view",
+      "use console.log(ViewData[\"key\"]); in the view",
+      "use <% ViewData[\"key\"] %> in a view",
+      "use data-binding expressions like {{ViewData[\"key\"]}}"
+    ],
+    "answer": ["use @ViewData[\"key\"] in a view"]
+  },
+  {
+    "text": "Who can access the pages displayed by the Account controller shown below?",
+    "code": "[Authorize] public class AccountController : Controller {}",
+    "options": [
+      "Only users who are logged in",
+      "All users",
+      "Only administrators",
+      "No users"
+    ],
+    "answer": ["Only users who are logged in"]
+  },
+  {
+    "text": "You can use the GetFathlyAction() method of the LinkGenerator class to generate",
+    "options": [
+      "A random number",
+      "A route-based URL",
+      "A timestamp",
+      "A user interface element"
+    ],
+    "answer": ["A route-based URL"]
+  },
+  {
+    "text": "Which of the following is NOT an advantage of using unit testing?",
+    "options": [
+      "It helps identify bugs in the code.",
+      "It automatically fixes bugs when it finds them.",
+      "It provides documentation of the code behavior.",
+      "It allows for test-driven development."
+    ],
+    "answer": ["It automatically fixes bugs when it finds them."]
   }
 ]

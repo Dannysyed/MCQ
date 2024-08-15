@@ -1,28 +1,23 @@
 [
   {
-    "text": "Which WordPress function would you call to load a new CSS spreadsheet into a theme?",
-    "options": [
-      "wp_enqueue_style",
-      "wp_enqueue_script",
-      "wp_enqueue_file",
-      "wp_enqueue_css"
-    ],
-    "answer": "wp_enqueue_style"
+    "text": "Which of the following plugins would you add to your application to improve SEO?",
+    "options": ["Square", "Elementor", "Yoast", "Storefront"],
+    "answer": "Yoast"
   },
   {
-    "text": "What is a variable product in WooCommerce?",
+    "text": "When is the \"init\" hook fired in a WordPress plugin?",
     "options": [
-      "A simple product with no variations",
-      "A downloadable product",
-      "A product like a T-shirt with many different sizes and colors",
-      "A service-based product"
+      "Just before any plugin executes code",
+      "When WordPress is installed for the first time",
+      "After the administration page loads",
+      "When the WordPress site has just finished loading"
     ],
-    "answer": "A product like a T-shirt with many different sizes and colors"
+    "answer": "When the WordPress site has just finished loading"
   },
   {
-    "text": "A downloadable product will never contain something that is shipped to the user.",
-    "options": ["True", "False"],
-    "answer": "True"
+    "text": "Which company sells point of sale software to small/medium companies and will often need to be integrated into a WooCommerce project?",
+    "options": ["Elementor", "Storefront", "Square", "Yoast"],
+    "answer": "Square"
   },
   {
     "text": "Tags and categories in WooCommerce should be the same thing.",
@@ -30,88 +25,313 @@
     "answer": "False"
   },
   {
-    "text": "Which of the following is not a step for PCI Compliance?",
+    "text": "What does the priority parameter in the WordPress add_action function do?",
     "options": [
-      "Encrypt data transmission",
-      "Keep all credit card information out of your database",
-      "Install and maintain a firewall",
-      "Use and regularly update anti-virus software"
-    ],
-    "answer": "Keep all credit card information out of your database"
-  },
-  {
-    "text": "What is a landing page?",
-    "options": [
-      "A special page designed to market a sale or product",
-      "The homepage of a website",
-      "A page with a list of products",
-      "A contact page"
-    ],
-    "answer": "A special page designed to market a sale or product"
-  },
-  {
-    "text": "A “Filter hook” in a WordPress plugin will take a variable, modify it, and return it.",
-    "options": ["True", "False"],
-    "answer": "True"
-  },
-  {
-    "text": "Which of the following plugins would you add to your application to improve SEO?",
-    "options": ["WooCommerce", "Contact Form 7", "Yoast", "Akismet"],
-    "answer": "Yoast"
-  },
-  {
-    "text": "Which company sells point-of-sale software to small/medium companies and will often need to be integrated into a WooCommerce project?",
-    "options": ["Square", "Stripe", "PayPal", "Authorize.net"],
-    "answer": "Square"
-  },
-  {
-    "text": "Which of the following best describes point-of-sale software?",
-    "options": [
-      "Inventory management tool",
-      "Online payment gateway",
-      "Barcode scanner",
-      "Customer relationship management"
-    ],
-    "answer": "Barcode scanner"
-  },
-  {
-    "text": "In which file will you generally add code to add stylesheets, and is code to a child theme?",
-    "options": ["style.css", "function.php", "header.php", "footer.php"],
-    "answer": "function.php"
-  },
-  {
-    "text": "What does the priority parameter in the WordPress add_ACTION FUNCTION DO?",
-    "options": [
-      "Sets the memory limit for the function",
-      "Determines the order that callback functions run at when a hook occurs",
-      "Specifies the security level of the function",
-      "Limits the number of times a function can run"
+      "Determines theme to load first when the plugin runs",
+      "Adds an action to the hook list",
+      "Takes a variable, modifies it and returns the result to WordPress",
+      "Determines the order that callback functions run at when a hook occurs"
     ],
     "answer": "Determines the order that callback functions run at when a hook occurs"
   },
   {
-    "text": "When is the “init” hook fired in a WordPress plugin?",
+    "text": "What is d3.schemeCategory10?",
     "options": [
-      "When the WordPress site has just finished loading",
-      "During the installation of a plugin",
-      "After a post is published",
-      "Before any plugins are loaded"
+      "A scale",
+      "A method for creating an axis",
+      "A layout for creating bar graphs",
+      "An array of different colors"
     ],
-    "answer": "When the WordPress site has just finished loading"
+    "answer": "An array of different colors"
   },
   {
-    "text": "Which WordPress table contains the content for the pages created in the admin dashboard?",
-    "options": ["wp_users", "wp_options", "wp_posts", "wp_comments"],
-    "answer": "wp_posts"
+    "text": "What does the first variable of the commonly used D3 anonymous functions contain?",
+    "options": [
+      "The bound data value",
+      "The array position",
+      "The csv file used to generate the data",
+      "The elements making up the graph"
+    ],
+    "answer": "The bound data value"
   },
   {
-    "text": "What does the 'The loop' do in a WordPress theme?",
+    "text": "Which type of data deals with different groups like gender or nationality?",
+    "options": ["Quantitative", "Categorical", "Topological", "Geometric"],
+    "answer": "Categorical"
+  },
+  {
+    "text": "Which type of data has objects that exist as children of objects recursively?",
     "options": [
-      "Process, formats and can display the content from the database",
-      "Loads JavaScript files",
-      "Handles user authentication",
-      "Manages theme settings"
+      "Geographic Data",
+      "Network Data",
+      "Nested Data",
+      "Tabular Data"
     ],
-    "answer": "Process, formats and can display the content from the database"
+    "answer": "Nested Data"
+  },
+  {
+    "text": "D3 will have errors if you perform a SelectAll where no elements exist.",
+    "options": ["True", "False"],
+    "answer": "False"
+  },
+  {
+    "text": "Which of the following is a D3 layout function?",
+    "options": ["pie()", "brush()", "line()", "zoom()"],
+    "answer": "pie()"
+  },
+  {
+    "text": "Which type of data deals with the relationship between the data, for example, parent and child?",
+    "options": ["Quantitative", "Categorical", "Topological", "Geometric"],
+    "answer": "Topological"
+  },
+  {
+    "text": "Which function gets triggered when we have more data than HTML elements?",
+    "options": ["enter()", "exit()", "append()", "insert()"],
+    "answer": "enter()"
+  },
+  {
+    "text": "What is colorbrewer?",
+    "options": [
+      "The library needed to add colour to a graph",
+      "A library containing colour palettes that work with graphs",
+      "A library for designing pie charts",
+      "A library for allowing d3 to connect with CSS"
+    ],
+    "answer": "A library containing colour palettes that work with graphs"
+  },
+  {
+    "text": "A boxplot encodes the distribution of the data in its shape.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "text": "The domain of a scale is often an array containing the smallest and largest piece of data.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "text": "Which of the following is a D3 component function?",
+    "options": ["line()", "axis()", "pie()", "arc()"],
+    "answer": "axis()"
+  },
+  {
+    "text": "Which type of data is most often represented as a node-link diagram?",
+    "options": [
+      "Geographic Data",
+      "Network Data",
+      "Nested Data",
+      "Tabular Data"
+    ],
+    "answer": "Network Data"
+  },
+  {
+    "text": "Which function returns an array containing the smallest and largest data points?",
+    "options": ["d3.maxmin", "d3.minmax", "d3.extent", "d3.nest"],
+    "answer": "d3.extent"
+  },
+  {
+    "text": "Which D3 function works best for creating a stacked graph?",
+    "options": ["d3.line", "d3.graph", "d3.arc", "d3.area"],
+    "answer": "d3.area"
+  },
+  {
+    "text": "D3.cloud must be imported to create a word cloud diagram.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "text": "What is a D3 transition?",
+    "options": [
+      "A type of animation that rotates the graph",
+      "A type of animation that shrinks/grows the graph",
+      "A method that can cause an animation to occur over time",
+      "A method that can cause an animation to occur instantaneously"
+    ],
+    "answer": "A method that can cause an animation to occur over time"
+  },
+  {
+    "text": "Colours interpolated in RGB tend to be muddy.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "text": "Which layout will create bins for data automatically to easily draw a bar chart?",
+    "options": ["d3.barGraph", "d3.histogram", "d3.lineGraph", "d3.bin"],
+    "answer": "d3.histogram"
+  },
+  {
+    "text": "What do we generally pass to the append() function?",
+    "options": ["The data", "The scale", "The axis", "HTML elements"],
+    "answer": "HTML elements"
+  },
+  {
+    "text": "What does the second variable of the commonly used D3 anonymous functions contain?",
+    "options": [
+      "The bound data value",
+      "The array index position",
+      "The csv file used to generate the data",
+      "The elements making up the graph"
+    ],
+    "answer": "The array index position"
+  },
+  {
+    "text": "Which of the following is a D3 generator function?",
+    "options": ["line()", "axis()", "brush()", "zoom()"],
+    "answer": "line()"
+  },
+  {
+    "text": "A closed path is one where the last point connects to the first point.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "text": "What function iterates through an array and runs a logical test that keeps only the elements that pass it in the array?",
+    "options": ["search", "remove", "filter", "sort"],
+    "answer": "filter"
+  },
+  {
+    "text": "Which D3 function can be used to map categories of data to different colours?",
+    "options": [
+      "d3.scaleOrdinal",
+      "d3.scaleColour",
+      "d3.colourData",
+      "d3.color"
+    ],
+    "answer": "d3.scaleOrdinal"
+  },
+  {
+    "text": "The stack layout is used to create a streamgraph.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "text": "What type of data does a Sankey Diagram generally use?",
+    "options": [
+      "A JSON array of nodes and a JSON array of links",
+      "An array of integers and an array of strings",
+      "A dictionary where the keys are integers and the values are Boolean",
+      "The same data as a bar graph"
+    ],
+    "answer": "A JSON array of nodes and a JSON array of links"
+  },
+  {
+    "text": "The curveBasis interpolation will change the position of a line at right angles.",
+    "options": ["True", "False"],
+    "answer": "False"
+  },
+  {
+    "text": "Which chart is best described as a mirrored curved area that bulges where there are many data points and tapers where there are few?",
+    "options": ["Pie Chart", "Histogram", "Violin Plot", "Sankey Diagram"],
+    "answer": "Violin Plot"
+  },
+  {
+    "text": "How did the Sankey diagram display its data?",
+    "options": [
+      "Nodes that were connected to each other by lines",
+      "Rectangular bars with the height equal to the data",
+      "An area graph where the heights were stacked on top of each other",
+      "Similarly to a pie chart but with animations"
+    ],
+    "answer": "Nodes that were connected to each other by lines"
+  },
+  {
+    "text": "Which type of interpolation will result in the RGB colors being interpolated into CIE Lch? (This gives more natural transitions between colors)",
+    "options": [
+      "d3.interpolateHsl",
+      "d3.interpolateLab",
+      "d3.interpolateHcl",
+      "d3.interpolateRgb"
+    ],
+    "answer": "d3.interpolateHcl"
+  },
+  {
+    "text": "What are often used to show the data using different methods in D3?",
+    "options": ["Layouts", "Generators", "Scales", "Paths"],
+    "answer": "Layouts"
+  },
+  {
+    "text": "Which type of graph is great for encoding data as dots on a graph where the height of the dot is the data value?",
+    "options": ["Line graph", "Scatterplot", "Area graph", "Violin plot"],
+    "answer": "Scatterplot"
+  },
+  {
+    "text": "A Sankey diagram is most similar to which type of graph?",
+    "options": ["Streamgraph", "Violin Plot", "Line Graph", "Network Graph"],
+    "answer": "Network Graph"
+  },
+  {
+    "text": "D3 has specific methods to convert latitude and longitude data points to the X and Y coordinates of a graph.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "text": "Which layout does D3 use to create hierarchical layouts?",
+    "options": ["d3.node", "d3.cluster", "d3.pie", "d3.bundle"],
+    "answer": "d3.cluster"
+  },
+  {
+    "text": "Which part of a D3 animation is optional?",
+    "options": ["The ease", "The duration", "The delay", "The animation"],
+    "answer": "The animation"
+  },
+  {
+    "text": "A streamgraph is most similar to a:",
+    "options": [
+      "Bar Graph",
+      "Sankey Diagram",
+      "Pie Chart",
+      "Stacked Area Graph"
+    ],
+    "answer": "Stacked Area Graph"
+  },
+  {
+    "text": "Which type of data has a one-to-many relationship between nodes and links?",
+    "options": [
+      "Geographic Data",
+      "Network Data",
+      "Nested Data",
+      "Tabular Data"
+    ],
+    "answer": "Network Data"
+  },
+  {
+    "text": "The stack layout is used to create a streamgraph.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "text": "A streamgraph encodes the distribution of the data in its shape.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "text": "Which type of data has objects that exist as children of objects recursively?",
+    "options": [
+      "Geographic Data",
+      "Network Data",
+      "Nested Data",
+      "Tabular Data"
+    ],
+    "answer": "Nested Data"
+  },
+  {
+    "text": "Which of the following is a D3 generator function?",
+    "options": ["line()", "axis()", "brush()", "zoom()"],
+    "answer": "line()"
+  },
+  {
+    "text": "What function iterates through an array and runs a logical test that keeps only the elements that pass it in the array?",
+    "options": ["search", "remove", "filter", "sort"],
+    "answer": "filter"
+  },
+  {
+    "text": "Which D3 function can be used to map categories of data to different colours?",
+    "options": [
+      "d3.scaleOrdinal",
+      "d3.scaleColour",
+      "d3.colourData",
+      "d3.color"
+    ],
+    "answer": "d3.scaleOrdinal"
   }
 ]

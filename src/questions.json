@@ -1,227 +1,117 @@
 [
   {
-    "text": "Authorization refers to the process of",
+    "text": "Which WordPress function would you call to load a new CSS spreadsheet into a theme?",
     "options": [
-      "validating the identity of the user",
-      "supplying a username and password",
-      "issuing or accepting identities from other websites",
-      "granting a user access to an app"
+      "wp_enqueue_style",
+      "wp_enqueue_script",
+      "wp_enqueue_file",
+      "wp_enqueue_css"
     ],
-    "answer": "granting a user access to an app"
+    "answer": "wp_enqueue_style"
   },
   {
-    "text": "Given a SignInManager<User> object named signInManager and a User object named user, which of the following attempts to log in the user?",
+    "text": "What is a variable product in WooCommerce?",
     "options": [
-      "signInManager.LogIn(user);",
-      "signInManager.SignIn(user, isPersistent: false);",
-      "await signInManager.SignInAsync(user, isPersistent: false);",
-      "await signInManager.LogInAsync(user);"
+      "A simple product with no variations",
+      "A downloadable product",
+      "A product like a T-shirt with many different sizes and colors",
+      "A service-based product"
     ],
-    "answer": "await signInManager.SignInAsync(user, isPersistent: false);"
+    "answer": "A product like a T-shirt with many different sizes and colors"
   },
   {
-    "text": "When you run an ASP.NET Core app with debugging and it encounters a breakpoint, it enters ________________ before it executes the statement on which the breakpoint is set.",
-    "options": ["step mode", "zen mode", "break mode", "debug mode"],
-    "answer": "break mode"
+    "text": "A downloadable product will never contain something that is shipped to the user.",
+    "options": ["True", "False"],
+    "answer": "True"
   },
   {
-    "text": "The command-line interface (CLI) can use the ____________ tool to manage client-side libraries.",
-    "options": ["LibMan", "NuGet", "EF", "GUI"],
-    "answer": "LibMan"
+    "text": "Tags and categories in WooCommerce should be the same thing.",
+    "options": ["True", "False"],
+    "answer": "False"
   },
   {
-    "text": "Which method of the UserManager<T> class can you use to create a user in the AspNetUsers table?",
-    "options": ["Create()", "CreateAsync()", "CreateUser()", "SaveUser()"],
-    "answer": "CreateAsync()"
-  },
-  {
-    "text": "MVC inspects the constructors of the objects it is preparing to inject and, if necessary, injects any objects needed by those objects in a process known as",
+    "text": "Which of the following is not a step for PCI Compliance?",
     "options": [
-      "dependency attribution",
-      "core attribution",
-      "dependency chaining",
-      "coupling"
+      "Encrypt data transmission",
+      "Keep all credit card information out of your database",
+      "Install and maintain a firewall",
+      "Use and regularly update anti-virus software"
     ],
-    "answer": "dependency chaining"
+    "answer": "Keep all credit card information out of your database"
   },
   {
-    "text": "To configure dependency injection, which method of the Startup.cs file should contain the code that maps the dependencies?",
+    "text": "What is a landing page?",
     "options": [
-      "ConfigureServices()",
-      "DependencyInject()",
-      "the constructor",
-      "SingletonInject()"
+      "A special page designed to market a sale or product",
+      "The homepage of a website",
+      "A page with a list of products",
+      "A contact page"
     ],
-    "answer": "ConfigureServices()"
+    "answer": "A special page designed to market a sale or product"
   },
   {
-    "text": "A partial view typically contains _________________ that's used by multiple views.",
+    "text": "A “Filter hook” in a WordPress plugin will take a variable, modify it, and return it.",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "text": "Which of the following plugins would you add to your application to improve SEO?",
+    "options": ["WooCommerce", "Contact Form 7", "Yoast", "Akismet"],
+    "answer": "Yoast"
+  },
+  {
+    "text": "Which company sells point-of-sale software to small/medium companies and will often need to be integrated into a WooCommerce project?",
+    "options": ["Square", "Stripe", "PayPal", "Authorize.net"],
+    "answer": "Square"
+  },
+  {
+    "text": "Which of the following best describes point-of-sale software?",
     "options": [
-      "view components",
-      "entity classes",
-      "CSS",
-      "HTML and Razor code"
+      "Inventory management tool",
+      "Online payment gateway",
+      "Barcode scanner",
+      "Customer relationship management"
     ],
-    "answer": "HTML and Razor code"
+    "answer": "Barcode scanner"
   },
   {
-    "text": "Given a Book object named book, which of the following passes the Book object as the model for the partial view named _BookLinkPartial?",
+    "text": "In which file will you generally add code to add stylesheets, and is code to a child theme?",
+    "options": ["style.css", "function.php", "header.php", "footer.php"],
+    "answer": "function.php"
+  },
+  {
+    "text": "What does the priority parameter in the WordPress add_ACTION FUNCTION DO?",
     "options": [
-      "<partial name=\"_BookLinkPartial\" model=\"@book\" />",
-      "<partial name=\"_BookLinkPartial\" viewData=\"@book\" />",
-      "<partial name=\"BookLinkPartial.cshtml\" model=\"@book\" />",
-      "<partial name=\"BookLinkPartial.cshtml\" viewData=\"@book\" />"
+      "Sets the memory limit for the function",
+      "Determines the order that callback functions run at when a hook occurs",
+      "Specifies the security level of the function",
+      "Limits the number of times a function can run"
     ],
-    "answer": "<partial name=\"_BookLinkPartial\" model=\"@book\" />"
+    "answer": "Determines the order that callback functions run at when a hook occurs"
   },
   {
-    "text": "Which of the following files will MVC use for the following partial tag helper?\n<partial name=\"_ProductDisplayPartial\" />",
+    "text": "When is the “init” hook fired in a WordPress plugin?",
     "options": [
-      "/Views/ProductDisplay/_Partial.cshtml",
-      "/Views/Product/Display.cshtml",
-      "/Views/Shared/_ProductDisplayPartial.cshtml",
-      "/Views/Shared/ProductDisplay.cshtml"
+      "When the WordPress site has just finished loading",
+      "During the installation of a plugin",
+      "After a post is published",
+      "Before any plugins are loaded"
     ],
-    "answer": "/Views/Shared/_ProductDisplayPartial.cshtml"
+    "answer": "When the WordPress site has just finished loading"
   },
   {
-    "text": "You can use the GetPathByAction() method of the LinkGenerator class to generate",
+    "text": "Which WordPress table contains the content for the pages created in the admin dashboard?",
+    "options": ["wp_users", "wp_options", "wp_posts", "wp_comments"],
+    "answer": "wp_posts"
+  },
+  {
+    "text": "What does the 'The loop' do in a WordPress theme?",
     "options": [
-      "a partial view",
-      "a route-based URL",
-      "an absolute URL",
-      "a view component"
+      "Process, formats and can display the content from the database",
+      "Loads JavaScript files",
+      "Handles user authentication",
+      "Manages theme settings"
     ],
-    "answer": "a route-based URL"
-  },
-  {
-    "text": "Which HTML elements does the following tag helper class apply to?\n[HtmlTargetElement(\"input\", ParentTag = \"form\")]\npublic class MyInputTagHelper : TagHelper {...}",
-    "options": [
-      "<input> or <form> elements",
-      "<input> elements coded within a form",
-      "<my-input> or <form> elements",
-      "<my-input> elements coded within a form"
-    ],
-    "answer": "<input> elements coded within a form"
-  },
-  {
-    "text": "To add the Identity tables to the DB context class, you can code an entity class named User that inherits the IdentityUser class and a DB context class that",
-    "options": [
-      "includes a DbSet<User> property",
-      "includes a DbSet<IdentityUser> property",
-      "inherits the IdentityDbContext<User> class",
-      "inherits the DbContext<User> class"
-    ],
-    "answer": "inherits the IdentityDbContext<User> class"
-  },
-  {
-    "text": "A common design pattern used for unit tests is the",
-    "options": [
-      "Arrange/Act/Assert pattern",
-      "Unit Test pattern",
-      "Test Driven Development pattern",
-      "Articulation pattern"
-    ],
-    "answer": "Arrange/Act/Assert pattern"
-  },
-  {
-    "text": "Which one of the following CLI commands creates a new ASP.NET Core app that's based on the Model-View-Controller template?",
-    "options": [
-      "dotnet new asp-core",
-      "dotnet new empty",
-      "dotnet new mvc",
-      "dotnet new model-view-controller"
-    ],
-    "answer": "dotnet new mvc"
-  },
-  {
-    "text": "Who can access the pages displayed by the List action in the Customer controller shown below?\npublic class CustomerController : Controller\n{\n    [Authorize(Roles = \"Manager\")]\n    [HttpGet]\n    public IActionResult List() {...}\n}",
-    "options": [
-      "All users",
-      "Anonymous users",
-      "Only users who are logged in",
-      "Only users who are logged in and members of the Manager role"
-    ],
-    "answer": "Only users who are logged in and members of the Manager role"
-  },
-  {
-    "text": "If a tag helper class contains the following property, what HTML attribute can you use to send data to that property?\n[HtmlAttributeName(\"my-min-number\")]\npublic int Min { get; set; }",
-    "options": [
-      "my-min-number=\"10\"",
-      "min-number=\"10\"",
-      "number=\"10\"",
-      "min=\"10\""
-    ],
-    "answer": "my-min-number=\"10\""
-  },
-  {
-    "text": "Which method can you use to add the Identity service to the HTTP request and response pipeline?",
-    "options": [
-      "AddIdentity()",
-      "UseAuthentication()",
-      "UseAuthorization()",
-      "ConfigurePassword()"
-    ],
-    "answer": "UseAuthentication()"
-  },
-  {
-    "text": "When you run VS Code on Windows, you can use the command line provided by VS Code's ____________ window to execute CLI commands.",
-    "options": ["Terminal", "Console", "Output", "Debug"],
-    "answer": "Terminal"
-  },
-  {
-    "text": "Which of the following is a tag helper element?",
-    "options": ["asp-controller", "asp-action", "asp-area", "environment"],
-    "answer": "asp-controller"
-  },
-  {
-    "text": "Which of the following is a technique that is used in ASP.NET Core MVC for maintaining state but is not commonly available outside of this framework?",
-    "options": ["hidden fields", "cookies", "routes", "query strings"],
-    "answer": "hidden fields"
-  },
-  {
-    "text": "What does the following code represent?\n@{\n  string myName = \"John\";\n  ViewBag.Name = myName;\n}",
-    "options": [
-      "A Razor expression",
-      "A Razor code block",
-      "A Razor foreach loop",
-      "A Razor if statement"
-    ],
-    "answer": "A Razor code block"
-  },
-  {
-    "text": "With Visual Studio, what tool can you use to add the packages needed to work with EF Core?",
-    "options": [
-      "Library Manager",
-      "NuGet Package Manager",
-      "SQL Server Object Explorer",
-      "Package Manager Console"
-    ],
-    "answer": "Package Manager Console"
-  },
-  {
-    "text": "Which ValidateSummary enum value can you use to display model-level validation messages, not property-level messages?",
-    "options": ["All", "None", "NoProperty", "ModelOnly"],
-    "answer": "ModelOnly"
-  },
-  {
-    "text": "What method of the ModelState class can you use to add a validation message?",
-    "options": [
-      "AddModelError()",
-      "AddErrorMessage()",
-      "AddValidationMessage()",
-      "SetError()"
-    ],
-    "answer": "AddModelError()"
-  },
-  {
-    "text": "Which of the following commands does not require an HTTP request?",
-    "options": ["Post", "Get", "Patch", "Put"],
-    "answer": "Get"
-  },
-  {
-    "text": "To use EF Core in a project, you should install the NuGet package for the ____________ provider.",
-    "options": ["SQL Server", "SQLite", "MySQL", "PostgreSQL"],
-    "answer": "SQL Server"
+    "answer": "Process, formats and can display the content from the database"
   }
 ]
